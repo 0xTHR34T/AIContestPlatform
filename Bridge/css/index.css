@@ -34,15 +34,12 @@ body {
 }
 #header p {
     border: 1px dashed gray;
+    cursor: pointer;
     font-size: 25px;
     margin: auto;
     padding: 10px;
     text-shadow: 0px 0px 10px #d2d2d2;
     width:400px;
-}
-#header p:hover {
-    cursor: pointer;
-
 }
 #w-header {
     background: #9c7841;
