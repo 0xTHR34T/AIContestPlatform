@@ -4,7 +4,7 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 require("includes/config.php");
 if (!defined('DB_NAME')) {
     header("Location: install.php");
-} elseif (isset($_COOKIE["UserName"]) {
+} elseif (isset($_COOKIE["UserName"])) {
   header("Location: UserPanel/");
 }
 ?>
