@@ -1,14 +1,25 @@
+<?php
+
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+require("includes/config.php");
+if (!defined('DB_NAME')) {
+    header("Location: install.php");
+} elseif (isset($_COOKIE["UserName"]) {
+  header("Location: UserPanel/");
+}
+?>
 <!DOCTYPE html>
 <html lang = "en">
 
 <head>
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width=device-width , initial-scale=1">
-    <link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "bootstrap-3.3.5/css/bootstrap.min.css">
     <link rel = "stylesheet" href = "css/index.css">
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src = "bootstrap-3.3.5/js/bootstrap.min.js"></script>
     <script src = "js/index.js"></script>
+    <script src = "js/angular.min.js"></script>
 
     </script>
     <title>.::&nbsp;Bridge&nbsp;::.</title>
@@ -34,19 +45,19 @@
             </div>
 
             <div id = "w-body">
-                <form id = "login-form">
+                <form id = "login-form" ng-app="app-gateway" ng-controller="ctrl-gateway">
                     <div class = "form-group">
                         <label><span class = "glyphicon glyphicon-user"></span>&nbsp;Username</label>
-                        <input class = "form-control" type = "text">
+                        <input name = "userName" class = "form-control" type = "text">
                     </div>
 
                     <div class = "form-group">
                         <label><span class = "glyphicon glyphicon-eye-open"></span>&nbsp;Password</label>
-                        <input class = "form-control" type = "password">
+                        <input name = "Password" class = "form-control" type = "password">
                     </div>
 
                     <div class="checkbox">
-                        <label><input type="checkbox" value="" checked>Remember me</label>
+                        <label><input name = "checkBox" type="checkbox" value="" checked>Remember me</label>
                     </div>
 
                     <button class = "btn btn-success btn-lg btn-block"><span class = "glyphicon glyphicon-ok"></span></button>

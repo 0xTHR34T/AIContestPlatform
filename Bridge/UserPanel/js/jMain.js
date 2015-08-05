@@ -1,6 +1,6 @@
 $(document).ready(
 	function(){
-        $('[data-toggle="tooltip"]').tooltip(); 
+        $('[data-toggle="tooltip"]').tooltip();
 		$(".sub-usrtb").hover(function(){
             $(this).animate({borderTopWidth : "10px" ,
                              backgroundColor : "#4dc941" ,
