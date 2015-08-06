@@ -11,6 +11,7 @@ if(isset($_GET["HOST"]) && isset($_GET["NAME"]) && isset($_GET["USERNAME"]) && i
     $PASSWORD = $_GET["PASSWORD"];
     $buffer = "
     <?php
+        error_reporting(E_ERROR | E_WARNING | E_PARSE);
         define(DB_HOST , '". $HOST ."');
         define(DB_NAME , '". $NAME ."');
         define(DB_USERNAME , '". $USERNAME ."');

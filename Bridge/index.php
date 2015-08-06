@@ -1,12 +1,15 @@
 <?php
 
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
-require("includes/config.php");
+/*require("includes/config.php");
 if (!defined('DB_NAME')) {
     header("Location: install.php");
 } elseif (isset($_COOKIE["UserName"])) {
   header("Location: UserPanel/");
-}
+}*/
+include("../Core/bTerminal/main.php");
+use Core\bTerminal\Main\Main as main;
+$c = new main;
+$c -> validate('a\^"', '1234');
 ?>
 <!DOCTYPE html>
 <html lang = "en">
