@@ -10,6 +10,7 @@
 /******* TAGs *******/
 body {
     background-image: url("../images/bg.png");
+    width: 100%;
 }
 
 /******* CLASSes *******/
@@ -22,6 +23,15 @@ body {
     margin: 40px auto;
     width: 500px;
 
+}
+
+.form-group .tooltip > .tooltip-inner {
+  background: #990000;
+  width: 100px;
+}
+
+.form-group .tooltip.right > .tooltip-arrow {
+  border-right: 5px solid #990000;
 }
 
 /******* IDs *******/
@@ -63,6 +73,17 @@ body {
 #backIcon , #backIcon2{
     cursor: pointer;
     margin-top: 10px;
+}
+
+#status {
+  top: 78px !important;
+  display:none;
+  font: bold 15px sans-serif;
+  left: 0;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 

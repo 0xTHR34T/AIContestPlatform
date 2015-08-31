@@ -1,15 +1,12 @@
 <?php
 
-/*require("includes/config.php");
+require("includes/config.php");
 if (!defined('DB_NAME')) {
     header("Location: install.php");
-} elseif (isset($_COOKIE["UserName"])) {
+} elseif (isset($_COOKIE["AICP_UserName"])) {
   header("Location: UserPanel/");
-}*/
-include("../Core/bTerminal/main.php");
-use Core\bTerminal\Main\Main as main;
-$c = new main;
-$c -> validate('a\^"', '1234');
+}
+
 ?>
 <!DOCTYPE html>
 <html lang = "en">
@@ -19,10 +16,13 @@ $c -> validate('a\^"', '1234');
     <meta name = "viewport" content = "width=device-width , initial-scale=1">
     <link rel = "stylesheet" href = "bootstrap-3.3.5/css/bootstrap.min.css">
     <link rel = "stylesheet" href = "css/index.css">
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src = "bootstrap-3.3.5/js/bootstrap.min.js"></script>
-    <script src = "js/index.js"></script>
     <script src = "js/angular.min.js"></script>
+    <script src = "js/index.js"></script>
+    <script src = "js/connection.js"></script>
+    <script src = "js/sha1.js"></script>
+    <script src = "UserPanel/js/alt.js"></script>
 
     </script>
     <title>.::&nbsp;Bridge&nbsp;::.</title>
@@ -47,47 +47,52 @@ $c -> validate('a\^"', '1234');
                 </h3>
             </div>
 
-            <div id = "w-body">
-                <form id = "login-form" ng-app="app-gateway" ng-controller="ctrl-gateway">
+            <div id = "w-body" ng-app = "app-gateway">
+              <div id = "status" class = "alert alert-danger"></div>
+                <form id = "login-form" ng-controller = "gateway-login">
                     <div class = "form-group">
                         <label><span class = "glyphicon glyphicon-user"></span>&nbsp;Username</label>
-                        <input name = "userName" class = "form-control" type = "text">
+                        <input ng-model = "userName" class = "form-control" type = "text">
                     </div>
 
                     <div class = "form-group">
                         <label><span class = "glyphicon glyphicon-eye-open"></span>&nbsp;Password</label>
-                        <input name = "Password" class = "form-control" type = "password">
+                        <input ng-model = "Pass" class = "form-control" type = "password">
                     </div>
 
                     <div class="checkbox">
-                        <label><input name = "checkBox" type="checkbox" value="" checked>Remember me</label>
+                        <label><input ng-model = "checkBox" type="checkbox" value="remember" checked>Remember me</label>
                     </div>
 
-                    <button class = "btn btn-success btn-lg btn-block"><span class = "glyphicon glyphicon-ok"></span></button>
+                    <button ng-click = "Login()" class = "btn btn-success btn-lg btn-block"><span class = "glyphicon glyphicon-ok"></span></button>
                 </form>
 
-                <form id = "reg-form">
-                    <div class = "form-group">
+                <form id = "reg-form" ng-controller = "gateway-register">
+                    <div class = "form-group" id = "username-fg">
                         <label><span class = "glyphicon glyphicon-user"></span>&nbsp;Username</label>
-                        <input class = "form-control" type = "text">
+                        <input ng-model = "userName" ng-change = "userCheck()" class = "form-control" type = "text">
+                        <span class = ""></span>
                     </div>
 
-                    <div class = "form-group">
+                    <div class = "form-group" id = "email-fg">
                         <label><span class = "glyphicon glyphicon-envelope"></span>&nbsp;Email</label>
-                        <input class = "form-control" type = "text">
+                        <input ng-model = "Email" ng-change = "emailCheck()" class = "form-control">
+                        <span class = ""></span>
                     </div>
 
-                    <div class = "form-group">
+                    <div class = "form-group" id = "password-fg">
                         <label><span class = "glyphicon glyphicon-eye-open"></span>&nbsp;Password</label>
-                        <input class = "form-control" type = "password">
+                        <input ng-model = "Pass" ng-change = "passCheck()" class = "form-control" type = "password">
+                        <span class = ""></span>
                     </div>
 
-                    <div class = "form-group">
+                    <div class = "form-group" id = "re-password-fg">
                         <label>Re-enter password</label>
-                        <input class = "form-control" type = "text">
+                        <input ng-model = "Pass2" ng-change = "passCheck()" class = "form-control" type = "password">
+                        <span class = ""></span>
                     </div>
 
-                    <button class = "btn btn-success btn-lg btn-block"><span class = "glyphicon glyphicon-ok"></span></button>
+                    <button ng-click = "Register()" class = "btn btn-success btn-lg btn-block"><span class = "glyphicon glyphicon-ok"></span></button>
                     <img id = "backIcon" class = "pull-left" src = "images/arrow left.png" data-toggle="tooltip" data-placement="top" title="Back">
                 </form>
 

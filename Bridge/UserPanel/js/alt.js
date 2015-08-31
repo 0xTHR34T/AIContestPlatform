@@ -4,6 +4,42 @@ function changeContent(id, val) {
   elem.innerHTML = val;
 }
 
+function changeFormState(selector, state) {
+  if (state == "SUCCESS") {
+    jQuery(selector + " > input").tooltip("destroy");
+    jQuery(selector).tooltip("destroy");
+    jQuery(selector).attr("class", "form-group has-success has-feedback");
+    jQuery(selector + " > span").attr("class", "glyphicon glyphicon-ok form-control-feedback");
+
+  } else {
+    jQuery(selector).attr("class", "form-group has-error has-feedback");
+    jQuery(selector + " > span").attr("class", "glyphicon glyphicon-remove form-control-feedback");
+  }
+}
+
+function changeAlertState(selector, state, message = "") {
+  if (state == "SUCCESS") {
+    jQuery(selector).attr("class", "alert alert-success");
+    jQuery(selector + " > span").attr("class", "glyphicon glyphicon-ok");
+    if (message != "") {
+      jQuery(selector + " > strong").text(message);
+    }
+    return 0;
+  } else {
+    jQuery(selector).attr("class", "alert alert-danger");
+    jQuery(selector + " > span").attr("class", "glyphicon glyphicon-remove");
+    if (message != "") {
+      jQuery(selector + " > strong").text(message);
+    }
+  }
+}
+
+function changeStyle(id, stl) {
+  var elem = document.getElementById(id);
+  elem.style = stl;
+  return 0;
+}
+
 function checkExtension(id) {
   var element1 = document.getElementById(id);
   var element2 = document.getElementById("sub-lang-indicator");
@@ -25,8 +61,16 @@ function checkExtension(id) {
       changeContent("sub-lang-indicator", "C++");
       element2.style = "color: #00c500";
       break;
+    case "text/x-java":
+      changeContent("sub-lang-indicator", "Java");
+      element2.style = "color: #9c6612";
+      break;
+    case "application/x-perl":
+      changeContent("sub-lang-indicator", "Perl");
+      element2.style = "color: #6796bf";
+      break;
     default:
-      changeContent("sub-lang-indicator", "Undefined");
+      changeContent("sub-lang-indicator", "Undefined"); // if 'Undefined' changes, change uploadProcess() extention handler!
       element2.style = "color: black";
 
   }

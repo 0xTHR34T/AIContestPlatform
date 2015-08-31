@@ -22,6 +22,7 @@ if(isset($_GET["HOST"]) && isset($_GET["NAME"]) && isset($_GET["USERNAME"]) && i
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50),
     password VARCHAR(50),
+    email VARCHAR(50),
     score INT(6)
     )";
     $table_games = "CREATE TABLE Games (
@@ -54,7 +55,7 @@ if(isset($_GET["HOST"]) && isset($_GET["NAME"]) && isset($_GET["USERNAME"]) && i
     echo "Queue table created.<br>";
 
     mysqli_close($conn);
-    die("Done!<br><h2 style = 'color:red'>Now, Delete install.php IMMEDIATELY!!</h2>");
+    die("Done!<br><h2>Now, Delete install.php IMMEDIATELY!!</h2>");
 }
 
 echo "

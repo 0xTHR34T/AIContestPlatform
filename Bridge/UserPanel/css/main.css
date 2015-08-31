@@ -12,7 +12,8 @@ body {
 }
 
 a {
-    color: white !important;
+    /*color: white !important;*/
+    cursor: pointer !important;
 }
 
 a:hover {
@@ -57,6 +58,27 @@ a:hover {
     width: 100%;
 }
 
+.usrtb2 {
+    position:fixed;
+    right: 0;
+    top: 78px;
+    width: 100px;
+}
+
+.sub-usrtb2 {
+    background: #a57a3a;
+    border-top: 0px solid #9f6923;
+    border-bottom: 1px solid #906a31;
+    color: white;
+    cursor: pointer;
+    font-family: monterey;
+    font-size: 20px;
+    height:100px;
+    padding: 20px 5px;
+    text-align: center;
+    width: 100%;
+}
+
 .sub-agent-upload {
   margin: 50px auto;
   width: 400px;
@@ -71,6 +93,19 @@ a:hover {
 .sub-agent-upload > div > p {
   padding: 5px 20px;
   position: absolute;
+}
+
+.contest-create {
+  width: 100px;
+  margin: 60px auto 20px auto;
+}
+
+.contest-create > .dropdown {
+  position: absolute;
+}
+
+.contest-create > button {
+  margin-left: 50px;
 }
 
 /*** IDs ***/
@@ -90,7 +125,7 @@ a:hover {
     margin: auto;
     padding: 10px;
     text-shadow: 0px 0px 10px #d2d2d2;
-    width:400px;
+    width:200px;
 }
 
 #lang-indicator {

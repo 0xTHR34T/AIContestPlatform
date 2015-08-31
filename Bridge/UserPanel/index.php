@@ -1,7 +1,14 @@
 <?php
 
-require("../../Core/terminal.php");
-if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["PassWord"])) {
+require("../../Core/bTerminal/main.php");
+
+use Core\bTerminal\Main\Main as main;
+use Core\bTerminal\Supports;
+
+$obj = new main;
+$valid = $obj -> validate($_COOKIE["AICP_UserName"], $_COOKIE["AICP_PassWord"]);
+
+if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
   echo "Redirecting...";
   header("Location: ../");
 }
@@ -18,9 +25,10 @@ if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["Pas
     <script src = "../bootstrap-3.3.5/js/bootstrap.min.js"></script>
     <script src = "js/jMain.js"></script>
     <script src = "js/alt.js"></script>
+    <script src = "../js/connection.js"></script>
     <script src = "js/jquery.color-2.1.2.min.js"></script>
     <script src = "js/angular.min.js"></script>
-    <title><?php echo $_COOKIE["UserName"]. ">" ."AICP Panel" ?></title>
+    <title><?php echo $_COOKIE["AICP_UserName"]. " > " ."AICP Panel" ?></title>
 </head>
 
 <body>
@@ -54,6 +62,26 @@ if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["Pas
         </a>
     </div>
 
+    <div class = "usrtb2">
+        <div class = "sub-usrtb2">
+            <p><span class = "glyphicon glyphicon-user"></span><br>Profile</p>
+        </div>
+
+        <div class = "sub-usrtb2">
+            <p><span class = "glyphicon glyphicon-wrench"></span><br>Settings</p>
+        </div>
+
+        <div class = "sub-usrtb2">
+            <p><span class = "glyphicon glyphicon-globe"></span><br>Teams</p>
+        </div>
+
+      <a href = "../logout.php">
+        <div class = "sub-usrtb2">
+            <p><span class = "glyphicon glyphicon-log-out"></span><br>Logout</p>
+        </div>
+      </a>
+    </div>
+
     <div class = "container">
         <div class = "agent-upload">
           <div class = "panel panel-default">
@@ -63,6 +91,10 @@ if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["Pas
               </p>
             </div>
             <div class = "panel-body">
+              <div id = "uploadAlert" class = "">
+                <span class = ""></span>&nbsp;
+                <strong></strong>
+              </div>
               <p>
                 <span class = "glyphicon glyphicon-chevron-right"></span>&nbsp;
                 Just upload your source code, then it will be queued for a run!
@@ -71,7 +103,7 @@ if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["Pas
                 <input id = "uploadBar" placeholder = "Choose a file" disabled = "disabled">
                 <div class = "btn btn-default btn-md">
                   <p>Browse</p>
-                  <input id = "uploadBtn" type = "file" onchange = "changeContent('uploadBar', this.value),checkExtension('uploadBtn')">
+                  <input id = "uploadBtn" type = "file" name = "file" onchange = "changeContent('uploadBar', this.value),checkExtension('uploadBtn')">
                 </div>
                 <p id = "lang-indicator">
                   Language:&nbsp;<span id = "sub-lang-indicator"></span>
@@ -79,7 +111,7 @@ if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["Pas
               </div>
             </div>
             <div class = "panel-footer">
-              <div class = "btn btn-success btn-lg btn-block">GO!</div>
+              <div id = "uploadGoBtn" class = "btn btn-success btn-lg btn-block" onclick = "uploadProcess()">GO!</div>
             </div>
           </div>
         </div>
@@ -87,14 +119,57 @@ if(!isset($_COOKIE["UserName"]) || !validate($_COOKIE["UserName"], $_COOKIE["Pas
           <div class = "panel panel-default">
             <div class = "panel-heading">
               <p>
-                <span class = "glyphicon glyphicon-flag"></span>&nbsp;&nbsp;Contest
+                <span class = "glyphicon glyphicon-flag"></span>&nbsp;&nbsp;Contests
               </p>
             </div>
             <div class = "panel-body">
               <p>
                 <span class = "glyphicon glyphicon-chevron-right"></span>&nbsp;
-                Sample
+                You can create a contest or join one of them!
               </p>
+              <div class = "contest-create">
+                <div class = "dropdown">
+                  <button class = "btn btn-default dropdown-toggle" data-toggle ="dropdown">
+                    2
+                    <span class = "caret"></span>
+                  </button>
+                  <ul class = "dropdown-menu">
+                    <li class = "dropdown-header">Number of players</li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                    <li><a>4</a></li>
+                    <li><a>5</a></li>
+                    <li><a>6</a></li>
+                  </ul>
+                </div>
+                <button class = "btn btn-primary btn-md">Create</button>
+              </div>
+              <div class = "contest-join">
+                <table class = "table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th width = "10%">Limit</th>
+                      <th width = "50%">Players</th>
+                      <th width = "30%">Status</th>
+                      <th width = "10%">Join</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>5</td>
+                      <td>Babak</td>
+                      <td>Status</td>
+                      <td>Join</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Babak</td>
+                      <td>Status</td>
+                      <td>Join</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
