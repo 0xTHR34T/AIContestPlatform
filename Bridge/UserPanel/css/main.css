@@ -20,6 +20,10 @@ a:hover {
     text-decoration: none !important;
 }
 
+table,
+table > thead th {
+  text-align: center;
+}
 /*** CLASSes ***/
 
 .container {
@@ -96,8 +100,9 @@ a:hover {
 }
 
 .contest-create {
-  width: 100px;
   margin: 60px auto 20px auto;
+  width: 100px;
+  text-align: center;
 }
 
 .contest-create > .dropdown {
@@ -143,8 +148,18 @@ a:hover {
   width: 100px;
 }
 
-#uploadBar {
+#joinModal .modal-header {
+  background-color: #5a1823;
+  color: #eee3d3;
+}
 
+#joinModal .modal-header .close {
+  color: #ececec !important;
+}
+
+#joinModal .modal-body {
+  background-color: #eee3d3;
+  text-align: center;
 }
 
 /*** FONTs ***/

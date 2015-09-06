@@ -10,43 +10,6 @@ function sha1(input) {
   return output;
 }
 
-function uploadProcess() {
-  var xhr = new XMLHttpRequest();
-  var formData = new FormData();
-  var inputElement = document.getElementById("uploadBtn");
-  var langIndicator = document.getElementById("sub-lang-indicator");
-  var fl = inputElement.files[0];
-
-  if (langIndicator.innerHTML.trim() == "Undefined") {
-    changeAlertState("#uploadAlert", "FAILURE", "Undefined file extension");
-    return 0;
-  }
-
-  changeContent("uploadGoBtn", "Uploading...");
-  jQuery("#uploadGoBtn").attr("class", "btn btn-success btn-lg btn-block disabled");
-  formData.append("file", fl, fl.name);
-
-  xhr.onload = function() {
-    if (xhr.status == 200) {
-      if (xhr.responseText.trim() == "Successfully uploaded!") {
-        changeAlertState("#uploadAlert", "SUCCESS", xhr.responseText);
-        jQuery("#uploadGoBtn").attr("class", "btn btn-success btn-lg btn-block").text("GO!");
-      } else {
-        changeAlertState("#uploadAlert", "FAILURE", xhr.responseText);
-        jQuery("#uploadGoBtn").attr("class", "btn btn-success btn-lg btn-block").text("GO!");
-      }
-    } else {
-      changeAlertState("#uploadAlert", "FAILURE", "Couldn't connect to the server");
-      jQuery("#uploadGoBtn").attr("class", "btn btn-success btn-lg btn-block").text("GO!");
-    }
-  }
-
-  xhr.open('POST', '../UserPanel/upload.php', true);
-  xhr.send(formData);
-
-  return 0;
-}
-
 var obj = document.getElementById("status");
 var app = angular.module('app-gateway', []);
 app.controller('gateway-login', function($scope, $http){

@@ -3,9 +3,12 @@
 require("../../Core/bTerminal/main.php");
 
 use Core\bTerminal\Main\Main as main;
-use Core\bTerminal\Supports;
+use Core\bTerminal\Main\Contest as contest;
+//use Core\bTerminal\Supports;
 
 $obj = new main;
+$obj2 = new contest;
+
 $valid = $obj -> validate($_COOKIE["AICP_UserName"], $_COOKIE["AICP_PassWord"]);
 
 if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
@@ -22,12 +25,12 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
     <link rel = "stylesheet" href = "../bootstrap-3.3.5/css/bootstrap.min.css">
     <link rel = "stylesheet" href = "css/main.css">
     <script src = "js/jquery-1.11.3.min.js"></script>
+    <script src = "js/jquery.color-2.1.2.min.js"></script>
     <script src = "../bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src = "js/angular.min.js"></script>
     <script src = "js/jMain.js"></script>
     <script src = "js/alt.js"></script>
-    <script src = "../js/connection.js"></script>
-    <script src = "js/jquery.color-2.1.2.min.js"></script>
-    <script src = "js/angular.min.js"></script>
+    <script src = "js/userconn.js"></script>
     <title><?php echo $_COOKIE["AICP_UserName"]. " > " ."AICP Panel" ?></title>
 </head>
 
@@ -115,7 +118,28 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
             </div>
           </div>
         </div>
-        <div class = "agent-contest">
+        <div class = "agent-contest" ng-app = "contest-app" ng-controller = "contest-ctrl">
+          <!-- Begining of the MODEL -->
+          <div id = "joinModal" class = "modal fade" role = "dialog">
+            <div class = "modal-dialog">
+              <div class = "modal-content">
+                <div class = "modal-header">
+                  <button class = "close" data-dismiss = "modal">&times;</button>
+                  <h4 class = "modal-title"><span class = "glyphicon glyphicon-leaf"></span>&nbsp;Select one of your agents:</h4>
+                </div>
+
+                <div class = "modal-body">
+                  <ul class = "nav nav-pills nav-stacked">
+                    <?php
+                      echo $obj2 -> fetchAgents();
+                    ?>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of the MODEL -->
+
           <div class = "panel panel-default">
             <div class = "panel-heading">
               <p>
@@ -129,7 +153,7 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
               </p>
               <div class = "contest-create">
                 <div class = "dropdown">
-                  <button class = "btn btn-default dropdown-toggle" data-toggle ="dropdown">
+                  <button id = "contestCreateButton" class = "btn btn-default dropdown-toggle" data-toggle ="dropdown">
                     2
                     <span class = "caret"></span>
                   </button>
@@ -142,31 +166,20 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
                     <li><a>6</a></li>
                   </ul>
                 </div>
-                <button class = "btn btn-primary btn-md">Create</button>
+                <button class = "btn btn-primary btn-md" ng-click = "createContestProcess()">Create</button>
               </div>
               <div class = "contest-join">
-                <table class = "table table-bordered table-hover">
+                <table id = "table-contest" class = "table table-bordered table-hover">
                   <thead>
                     <tr>
-                      <th width = "10%">Limit</th>
+                      <th width = "10%">Capacity</th>
                       <th width = "50%">Players</th>
                       <th width = "30%">Status</th>
-                      <th width = "10%">Join</th>
+                      <th width = "10%">Action</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>5</td>
-                      <td>Babak</td>
-                      <td>Status</td>
-                      <td>Join</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Babak</td>
-                      <td>Status</td>
-                      <td>Join</td>
-                    </tr>
+
                   </tbody>
                 </table>
               </div>

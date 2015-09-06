@@ -31,8 +31,10 @@ if(isset($_GET["HOST"]) && isset($_GET["NAME"]) && isset($_GET["USERNAME"]) && i
     result varchar(255)
     )";
     $table_queue = "CREATE TABLE Queue (
-    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    players varchar(255),
+    capacity INT UNSIGNED,
+    remaining INT UNSIGNED,
+    players varchar(255) UNIQUE,
+    agents varchar(255),
     status varchar(50)
     )";
 
