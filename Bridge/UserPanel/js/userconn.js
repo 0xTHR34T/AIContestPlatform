@@ -40,11 +40,16 @@ function uploadProcess() {
   return 0;
 }
 
-function joinProcessInit(element) {
+function contestProcessInit(element, lv = null) {
   var nm = element.name;
   var modal = document.getElementById("joinModal");
   modal.name = nm.trim();
+  if (lv == "create") {
+    modal.role = "CREATE_CONTEST";
+  }
 }
+
+var rootApp = angular.module('rootApp', ['contest-app', 'monitor-app', 'ranking-app']);
 
 var contestApp = angular.module('contest-app', []);
 
@@ -53,7 +58,7 @@ contestApp.controller('contest-ctrl', function($scope, $http){
     jQuery("#table-contest tbody").html(response);               //Note: Probable XSS attack
   });
 
-  $scope.createContestProcess = function() {
+  /*$scope.createContestProcess = function() {
     var plNumber = document.getElementById("contestCreateButton").innerHTML;
     var url;
 
@@ -68,5 +73,21 @@ contestApp.controller('contest-ctrl', function($scope, $http){
         jQuery(".contest-create").html("<b style = 'color:red'>Failed!</b>");
       }
     });
-  };
+  };*/
 });
+
+var monitorApp = angular.module('monitor-app', []);
+
+monitorApp.controller('monitor-ctrl', function($scope, $http){
+    $http.get("../UserPanel/monitor.php?query=show").success(function(response){
+      jQuery("#table-monitor tbody").html(response);               //Note: Probable XSS attack
+    });
+  });
+
+var rankingApp = angular.module('ranking-app', []);
+
+rankingApp.controller('ranking-ctrl', function($scope, $http){
+    $http.get("../UserPanel/ranking.php?query=show").success(function(response){
+      jQuery("#table-ranking tbody").html(response);               //Note: Probable XSS attack
+    });
+  });

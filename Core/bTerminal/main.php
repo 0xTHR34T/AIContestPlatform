@@ -1,6 +1,10 @@
 <?php
 namespace Core\bTerminal\Main
 {
+  /*
+   * Note: This file needs 'rw' permission to run appropriately.
+   *
+  */
   require(dirname(__FILE__)."/../../Bridge/includes/config.php");
   require(dirname(__FILE__)."/../security.php");
 
@@ -177,7 +181,7 @@ namespace Core\bTerminal\Main
         if (($tbl[$i][0] == $tbl[$i][1]) || (strpos($tbl[$i][2], $_COOKIE["AICP_UserName"]) !== false)) {
           $offset = "-";
         } else {
-          $offset = "<button name = '". $tbl[$i][2] ."' onclick = 'joinProcessInit(this)' class = 'btn btn-success' data-toggle = 'modal' data-target = '#joinModal'>join</button>";
+          $offset = "<button name = '". $tbl[$i][2] ."' onclick = 'contestProcessInit(this)' class = 'btn btn-success' data-toggle = 'modal' data-target = '#joinModal'>join</button>";
         }
         $buffer .= "<tr>
                       <td>". $tbl[$i][0] ."</td>
@@ -191,12 +195,13 @@ namespace Core\bTerminal\Main
       return $buffer;
     }
 
-    function createContest($usr, $num)
+    function createContest($usr, $num, $agent)
     {
+      /*     Filtering the $num    */
       if (($num < 2) || ($num > 6)){
         return false;
       }
-
+      /*     Check if the user exists in a running contest    */
       $res = mysqli_query($GLOBALS["conn"], "SELECT * FROM Queue");
       $array = mysqli_fetch_all($res);
 
@@ -206,7 +211,11 @@ namespace Core\bTerminal\Main
         }
       }
 
-      mysqli_query($GLOBALS["conn"], "INSERT INTO Queue VALUES ($num, $num-1, '$usr', 'Wating for players')");
+      if (!$this -> validateAgent($usr, $agent)) {
+        return false;
+      }
+
+      mysqli_query($GLOBALS["conn"], "INSERT INTO Queue VALUES ($num, $num-1, '$usr', '$agent', 'Wating for players')");
       return true;
     }
 
@@ -219,7 +228,7 @@ namespace Core\bTerminal\Main
       $agents = explode("***", $res[0]);
 
       for ($i = 0; $i < count($agents)-1; $i++) {
-        $buffer .= "<li ng-click = 'joinProcess()'><a>$agents[$i]</a></li>";
+        $buffer .= "<li><a>$agents[$i]</a></li>";
       }
       return $buffer . "\n";
     }
@@ -285,6 +294,75 @@ namespace Core\bTerminal\Main
       return true;
     }
 
+  }
+
+  class Monitor
+  {
+    function __construct()
+    {
+      $GLOBALS["conn"] = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+      $GLOBALS["sec"] = new Sec;
+      $GLOBALS["tools"] = new Tools;
+      $GLOBALS["contest"] = new Contest;
+    }
+
+    function monitorAgents()
+    {
+      $buffer = "";
+      $id = $GLOBALS["tools"] -> findIdByUsername($GLOBALS["conn"], $_COOKIE["AICP_UserName"]);
+      $row = $GLOBALS["tools"] -> selectRowById($GLOBALS["conn"], $id, "Games");
+      $file_names = explode("***", $row[1]);
+      $scores = explode("***", $row[2]);
+
+      for($i = 0; $i < count($file_names) -1; $i++) {
+        $buffer .= "
+                  <tr>
+                    <td>". strval($i+1) ."</td>
+                    <td>$file_names[$i]</td>
+                    <td>$scores[$i]</td>
+                    <td>
+                      <h4>
+                      <span name = '$file_names[$i]' class = 'glyphicon glyphicon-edit'></span>&nbsp;&nbsp;
+                      <span name = '$file_names[$i]' class = 'glyphicon glyphicon-trash'></span>
+                      </h4>
+                    </td>
+                  </tr>
+                    ";
+      }
+      return $buffer;
+    }
+  }
+
+  class Ranking
+  {
+    function __construct()
+    {
+      $GLOBALS["conn"] = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+      $GLOBALS["sec"] = new Sec;
+      $GLOBALS["tools"] = new Tools;
+    }
+
+    /*function sortPlayers()
+    {
+      return 0;
+    }*/
+
+    function showRanking()
+    {
+      $buffer = "";
+      $row = mysqli_query($GLOBALS["conn"], "SELECT * FROM Users ORDER BY score DESC");
+      $row = mysqli_fetch_all($row);
+
+      for($i = 0; $i < count($row); $i++) {
+        $buffer .= "<tr>
+                      <td>". strval($i+1) ."</td>
+                      <td>". $row[$i][1] ."</td>
+                      <td>". "-" ."</td>
+                      <td>". $row[$i][4] ."</td>
+                    </tr>";
+      }
+      return $buffer;
+    }
   }
 }
 

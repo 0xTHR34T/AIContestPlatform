@@ -32,8 +32,8 @@ table > thead th {
 }
 
 .panel {
-  box-shadow: 0px 0px 5px gray;
-  margin: 50px 0px;
+  box-shadow: 0px 0px 10px gray;
+  margin: 20px 0px;
 }
 
 .panel-heading {
@@ -113,6 +113,23 @@ table > thead th {
   margin-left: 50px;
 }
 
+.glyphicon-edit:hover {
+  color: orange !important;
+  cursor: pointer;
+}
+
+.glyphicon-remove,
+.glyphicon-trash:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+/*.agent-upload,*/
+.agent-contest,
+.agent-monitor,
+.agent-ranking {
+  display: none;
+}
 /*** IDs ***/
 
 #header {

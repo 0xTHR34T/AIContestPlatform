@@ -19,11 +19,11 @@ if (!$main -> validate($_COOKIE["AICP_UserName"], $_COOKIE["AICP_PassWord"])) {
 if ($_GET["query"] == "show") {
   die($contest -> fetchContests());
 } else if ($_GET["query"] == "create") {
-  if (!isset($_GET["number"])) {
+  if (!isset($_GET["number"]) || !isset($_GET["agent"])) {
     die("Invalid command");
   }
 
-  if ($contest -> createContest($_COOKIE["AICP_UserName"], $_GET["number"])) {
+  if ($contest -> createContest($_COOKIE["AICP_UserName"], $_GET["number"], $_GET["agent"])) {
     die("Created!");
   }
 

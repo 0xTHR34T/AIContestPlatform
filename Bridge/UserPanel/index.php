@@ -34,32 +34,32 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
     <title><?php echo $_COOKIE["AICP_UserName"]. " > " ."AICP Panel" ?></title>
 </head>
 
-<body>
+<body ng-app = "rootApp">
     <div id = "header" class = "container-fluid">
         <p>AICP Panel</p>
     </div>
 
     <div class = "usrtb">
         <a data-toggle = "tooltip" data-placement = "right" title = "Upload your agents!">
-        <div class = "sub-usrtb">
+        <div name = "upload" class = "sub-usrtb">
             <p><span class = "glyphicon glyphicon-cloud-upload"></span><br>Upload</p>
         </div>
         </a>
 
         <a data-toggle = "tooltip" data-placement = "right" title = "Join a contest!">
-        <div class = "sub-usrtb">
+        <div name = "contest" class = "sub-usrtb">
             <p><span class = "glyphicon glyphicon-flag"></span><br>Contests</p>
         </div>
         </a>
 
         <a data-toggle = "tooltip" data-placement = "right" title = "Observe your gamelogs!">
-        <div class = "sub-usrtb">
+        <div name = "monitor" class = "sub-usrtb">
             <p><span class = "glyphicon glyphicon-eye-open"></span><br>Monitor</p>
         </div>
         </a>
 
         <a data-toggle = "tooltip" data-placement = "right" title = "See ranking!">
-        <div class = "sub-usrtb">
+        <div name = "ranking" class = "sub-usrtb">
             <p><span class = "glyphicon glyphicon-list"></span><br>Ranks</p>
         </div>
         </a>
@@ -114,7 +114,7 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
               </div>
             </div>
             <div class = "panel-footer">
-              <div id = "uploadGoBtn" class = "btn btn-success btn-lg btn-block" onclick = "uploadProcess()">GO!</div>
+              <div id = "uploadGoBtn" class = "btn btn-success btn-lg btn-block" onclick = "uploadProcess()"><span class = "glyphicon glyphicon-send"></span>&nbsp;&nbsp;GO!</div>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
             <div class = "panel-body">
               <p>
                 <span class = "glyphicon glyphicon-chevron-right"></span>&nbsp;
-                You can create a contest or join one of them!
+                Create a contest or join one of them!
               </p>
               <div class = "contest-create">
                 <div class = "dropdown">
@@ -166,7 +166,7 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
                     <li><a>6</a></li>
                   </ul>
                 </div>
-                <button class = "btn btn-primary btn-md" ng-click = "createContestProcess()">Create</button>
+                <button id = "contestCreateBtn" class = "btn btn-primary btn-md" name = "2" onclick = "contestProcessInit(this, 'create')" data-toggle = 'modal' data-target = '#joinModal'>Create</button>
               </div>
               <div class = "contest-join">
                 <table id = "table-contest" class = "table table-bordered table-hover">
@@ -186,7 +186,7 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
             </div>
           </div>
         </div>
-        <div class = "agent-monitor">
+        <div class = "agent-monitor" ng-app = "monitor-app" ng-controller = "monitor-ctrl">
           <div class = "panel panel-default">
             <div class = "panel-heading">
               <p>
@@ -196,12 +196,27 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
             <div class = "panel-body">
               <p>
                 <span class = "glyphicon glyphicon-chevron-right"></span>&nbsp;
-                Sample
-              </p>
+                Evaluate your agents; Edit or delete them!
+              </p><br>
+              <div>
+                <table id = "table-monitor" class = "table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th width = "10%">Id</th>
+                      <th width = "45%">Agents</th>
+                      <th width = "25%">Score</th>
+                      <th width = "20%">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
-        <div class = "agent-ranking">
+        <div class = "agent-ranking" ng-app = "ranking-app" ng-controller = "ranking-ctrl">
           <div class = "panel panel-default">
             <div class = "panel-heading">
               <p>
@@ -211,8 +226,23 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
             <div class = "panel-body">
               <p>
                 <span class = "glyphicon glyphicon-chevron-right"></span>&nbsp;
-                Sample
-              </p>
+                Ranking:
+              </p><br>
+              <div>
+                <table id = "table-ranking" class = "table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th width = "10%">Rank</th>
+                      <th width = "45%">Name</th>
+                      <th width = "25%">Team</th>
+                      <th width = "20%">Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
