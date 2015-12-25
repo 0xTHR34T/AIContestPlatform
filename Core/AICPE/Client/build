@@ -1,0 +1,2 @@
+#!/bin/sh
+g++ -std=c++11 Debug.h Debug.cpp Network.h Network.cpp Player0.cpp -D _DEBUG -o player0.o

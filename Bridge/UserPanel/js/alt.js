@@ -70,7 +70,7 @@ function checkExtension(id) {
       element2.style = "color: #6796bf";
       break;
     default:
-      changeContent("sub-lang-indicator", "Undefined"); // if 'Undefined' changes, change uploadProcess() extention handler!
+      changeContent("sub-lang-indicator", "Not supported"); // if 'Undefined' changes, change uploadProcess() extention handler!
       element2.style = "color: black";
 
   }

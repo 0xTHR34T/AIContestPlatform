@@ -10,8 +10,8 @@ function uploadProcess() {
   var langIndicator = document.getElementById("sub-lang-indicator");
   var fl = inputElement.files[0];
 
-  if (langIndicator.innerHTML.trim() == "Undefined") {
-    changeAlertState("#uploadAlert", "FAILURE", "Undefined file extension");
+  if (langIndicator.innerHTML.trim() == "Not supported") {
+    changeAlertState("#uploadAlert", "FAILURE", "Forbidden file extension");
     return 0;
   }
 
@@ -21,7 +21,7 @@ function uploadProcess() {
 
   xhr.onload = function() {
     if (xhr.status == 200) {
-      if (xhr.responseText.trim() == "Successfully uploaded!") {
+      if (xhr.responseText.trim() == "Uploaded successfully!") {
         changeAlertState("#uploadAlert", "SUCCESS", xhr.responseText);
         jQuery("#uploadGoBtn").attr("class", "btn btn-success btn-lg btn-block").text("GO!");
       } else {
@@ -47,6 +47,31 @@ function contestProcessInit(element, lv = null) {
   if (lv == "create") {
     modal.role = "CREATE_CONTEST";
   }
+}
+
+function initialTestProcess(obj)
+{
+  var url = "../UserPanel/monitor.php?query=test&agent="+ obj.name;
+  var xhr = new XMLHttpRequest();
+  var pObj = obj.parentElement;
+
+  pObj.innerHTML = "<img src = 'images/mini-pre.GIF'>";
+
+  xhr.onload = function() {
+    if (xhr.status == 200) {
+      pObj.innerHTML = "<h4 style='color:black'><b>"+ xhr.responseText.trim() +"</b></h4>";
+      if (xhr.responseText.trim() == "Initial test: DONE") {
+        pObj.innerHTML = "<h4 style='color:green'><b>Done!</b></h4>";
+      } else {
+        pObj.innerHTML = "<h4 style='color:red'><b>Failed!</b></h4>";
+      }
+    } else {
+      pObj.innerHTML = "<h4 style='color:red'><b>Error</b></h4>";
+    }
+  }
+
+  xhr.open('GET', url, true);
+  xhr.send();
 }
 
 var rootApp = angular.module('rootApp', ['contest-app', 'monitor-app', 'ranking-app']);

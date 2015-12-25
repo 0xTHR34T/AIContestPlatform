@@ -1,0 +1,2811 @@
+
+	Message : AI Contest Platform Engine version 0.0.0
+	Message : Player Count : 2
+	Message : Player 0 : player3
+	Message : Player 1 : player1
+	Message : Network system initialized
+	Message : (Network) Connection to client 0 accepted
+	Message : (Network) Connection to client 1 accepted
+	Message : All clients have connected successfully
+	Message : Client 0 tried to enter with an invalid name; expected "player3", received "p"
+	Message : Client 1 tried to enter with an invalid name; expected "player1", received "p"
+	Message : All clients' names successfully checked
+	Message : Seed generated at (15, 23)
+	Message : Seed generated at (26, 27)
+	Message : Seed generated at (27, 11)
+	Message : Seed generated at (18, 22)
+	Message : Seed generated at (7, 34)
+	Message : Seed generated at (21, 29)
+	Message : Seed generated at (5, 22)
+	Message : Seed generated at (31, 3)
+	Message : Seed generated at (29, 21)
+	Message : Seed generated at (10, 14)
+	Message : Seed generated at (38, 19)
+	Message : Seed generated at (26, 37)
+	Message : Seed generated at (27, 27)
+	Message : Seed generated at (9, 10)
+	Message : Seed generated at (5, 7)
+	Message : Seed generated at (25, 19)
+	Message : Seed generated at (7, 12)
+	Message : Seed generated at (24, 12)
+	Message : Seed generated at (23, 19)
+	Message : Seed generated at (11, 29)
+	Message : Seed generated at (30, 31)
+	Message : Seed generated at (20, 34)
+	Message : Seed generated at (30, 28)
+	Message : Seed generated at (15, 36)
+	Message : Seed generated at (10, 2)
+	Message : Seed generated at (11, 9)
+	Message : Seed generated at (21, 36)
+	Message : Seed generated at (8, 9)
+	Message : Seed generated at (24, 32)
+	Message : Seed generated at (34, 7)
+	Message : Seed generated at (16, 20)
+	Message : Seed generated at (3, 38)
+	Message : Seed generated at (32, 4)
+	Message : Seed generated at (27, 32)
+	Message : Seed generated at (22, 37)
+	Message : Seed generated at (22, 13)
+	Message : Seed generated at (29, 19)
+	Message : Seed generated at (25, 36)
+	Message : Seed generated at (8, 1)
+	Message : Seed generated at (33, 34)
+	Message : Seed generated at (2, 5)
+	Message : Seed generated at (20, 38)
+	Message : Seed generated at (18, 5)
+	Message : Seed generated at (24, 20)
+	Message : Seed generated at (14, 20)
+	Message : Seed generated at (26, 29)
+	Message : Seed generated at (17, 6)
+	Message : Seed generated at (7, 26)
+	Message : Seed generated at (26, 33)
+	Message : Seed generated at (19, 9)
+	Message : Seed generated at (32, 19)
+	Message : Seed generated at (38, 38)
+	Message : Seed generated at (15, 2)
+	Message : Seed generated at (14, 1)
+	Message : Seed generated at (2, 8)
+	Message : Seed generated at (34, 19)
+	Message : Seed generated at (29, 31)
+	Message : Seed generated at (35, 8)
+	Message : Seed generated at (36, 20)
+	Message : Seed generated at (17, 30)
+	Message : Seed generated at (18, 34)
+	Message : Seed generated at (36, 2)
+	Message : Seed generated at (37, 1)
+	Message : Seed generated at (12, 34)
+	Message : Seed generated at (9, 5)
+	Message : Seed generated at (14, 24)
+	Message : Seed generated at (21, 6)
+	Message : Seed generated at (3, 34)
+	Message : Seed generated at (6, 20)
+	Message : Seed generated at (19, 17)
+	Message : Seed generated at (1, 9)
+	Message : Seed generated at (10, 13)
+	Message : Seed generated at (17, 23)
+	Message : Seed generated at (32, 5)
+	Message : Seed generated at (11, 27)
+	Message : Seed generated at (13, 6)
+	Message : Seed generated at (38, 26)
+	Message : Seed generated at (23, 36)
+	Message : Seed generated at (26, 35)
+	Message : Seed generated at (31, 12)
+	Message : Seed generated at (17, 22)
+	Message : Seed generated at (36, 37)
+	Message : Seed generated at (28, 38)
+	Message : Seed generated at (10, 11)
+	Message : Seed generated at (20, 29)
+	Message : Seed generated at (28, 36)
+	Message : Seed generated at (37, 15)
+	Message : Seed generated at (10, 31)
+	Message : Seed generated at (15, 19)
+	Message : Seed generated at (14, 3)
+	Message : Seed generated at (23, 26)
+	Message : Seed generated at (9, 22)
+	Message : Seed generated at (13, 9)
+	Message : Seed generated at (5, 28)
+	Message : Seed generated at (11, 22)
+	Message : Seed generated at (12, 24)
+	Message : Seed generated at (36, 17)
+	Message : Seed generated at (27, 37)
+	Message : Seed generated at (14, 32)
+	Message : Seed generated at (12, 12)
+	Message : Game started
+	Message : End message sent to player 0
+	Message : End message sent to player 1
+	Message : Turn 1
+	Message : Final results : 
+	Message : Player 0 : -nan
+	Message : Player 1 : -nan
+
+
+	Message : AI Contest Platform Engine version 0.0.0
+	Message : Player Count : 2
+	Message : Player 0 : player3
+	Message : Player 1 : player1
+	Message : Network system initialized
+	Message : (Network) Connection to client 0 accepted
+	Message : (Network) Connection to client 1 accepted
+	Message : All clients have connected successfully
+	Message : Client 0 entered with name player3
+	Message : Client 1 entered with name player1
+	Message : All clients' names successfully checked
+	Message : Seed generated at (23, 33)
+	Message : Seed generated at (3, 37)
+	Message : Seed generated at (6, 16)
+	Message : Seed generated at (28, 24)
+	Message : Seed generated at (17, 31)
+	Message : Seed generated at (25, 17)
+	Message : Seed generated at (15, 35)
+	Message : Seed generated at (4, 32)
+	Message : Seed generated at (12, 6)
+	Message : Seed generated at (20, 35)
+	Message : Seed generated at (35, 26)
+	Message : Seed generated at (12, 25)
+	Message : Seed generated at (11, 29)
+	Message : Seed generated at (36, 38)
+	Message : Seed generated at (10, 18)
+	Message : Seed generated at (30, 11)
+	Message : Seed generated at (13, 32)
+	Message : Seed generated at (9, 34)
+	Message : Seed generated at (10, 15)
+	Message : Seed generated at (7, 22)
+	Message : Seed generated at (21, 38)
+	Message : Seed generated at (18, 24)
+	Message : Seed generated at (9, 29)
+	Message : Seed generated at (7, 7)
+	Message : Seed generated at (3, 19)
+	Message : Seed generated at (10, 14)
+	Message : Seed generated at (5, 21)
+	Message : Seed generated at (20, 2)
+	Message : Seed generated at (20, 8)
+	Message : Seed generated at (35, 27)
+	Message : Seed generated at (18, 25)
+	Message : Seed generated at (37, 26)
+	Message : Seed generated at (20, 24)
+	Message : Seed generated at (2, 33)
+	Message : Seed generated at (27, 25)
+	Message : Seed generated at (16, 9)
+	Message : Seed generated at (24, 11)
+	Message : Seed generated at (10, 10)
+	Message : Seed generated at (17, 16)
+	Message : Seed generated at (16, 19)
+	Message : Seed generated at (34, 26)
+	Message : Seed generated at (10, 16)
+	Message : Seed generated at (8, 8)
+	Message : Seed generated at (17, 5)
+	Message : Seed generated at (15, 30)
+	Message : Seed generated at (32, 10)
+	Message : Seed generated at (16, 8)
+	Message : Seed generated at (35, 14)
+	Message : Seed generated at (31, 15)
+	Message : Seed generated at (8, 19)
+	Message : Seed generated at (17, 1)
+	Message : Seed generated at (28, 18)
+	Message : Seed generated at (11, 15)
+	Message : Seed generated at (27, 5)
+	Message : Seed generated at (31, 21)
+	Message : Seed generated at (1, 4)
+	Message : Seed generated at (8, 26)
+	Message : Seed generated at (20, 31)
+	Message : Seed generated at (33, 14)
+	Message : Seed generated at (13, 25)
+	Message : Seed generated at (5, 22)
+	Message : Seed generated at (34, 21)
+	Message : Seed generated at (29, 9)
+	Message : Seed generated at (23, 19)
+	Message : Seed generated at (2, 1)
+	Message : Seed generated at (19, 7)
+	Message : Seed generated at (18, 7)
+	Message : Seed generated at (21, 22)
+	Message : Seed generated at (27, 29)
+	Message : Seed generated at (4, 27)
+	Message : Seed generated at (33, 27)
+	Message : Seed generated at (14, 30)
+	Message : Seed generated at (35, 25)
+	Message : Seed generated at (21, 10)
+	Message : Seed generated at (11, 26)
+	Message : Seed generated at (31, 23)
+	Message : Seed generated at (24, 38)
+	Message : Seed generated at (31, 35)
+	Message : Seed generated at (15, 37)
+	Message : Seed generated at (9, 33)
+	Message : Seed generated at (21, 4)
+	Message : Seed generated at (17, 20)
+	Message : Seed generated at (25, 5)
+	Message : Seed generated at (10, 7)
+	Message : Seed generated at (9, 20)
+	Message : Seed generated at (33, 22)
+	Message : Seed generated at (27, 8)
+	Message : Seed generated at (24, 10)
+	Message : Seed generated at (17, 13)
+	Message : Seed generated at (35, 36)
+	Message : Seed generated at (24, 5)
+	Message : Seed generated at (32, 22)
+	Message : Seed generated at (35, 24)
+	Message : Seed generated at (36, 21)
+	Message : Seed generated at (34, 35)
+	Message : Seed generated at (24, 12)
+	Message : Seed generated at (16, 26)
+	Message : Seed generated at (32, 3)
+	Message : Seed generated at (10, 2)
+	Message : Seed generated at (1, 21)
+	Message : Game started
+	Message : Turn 1
+	Message : Player 0 moved to position (13, 19)
+	Message : Player 1 moved to position (26, 21)
+	Message : Turn 2
+	Message : Player 0 moved to position (13, 18)
+	Message : Player 1 moved to position (26, 22)
+	Message : Turn 3
+	Message : Player 0 moved to position (13, 17)
+	Message : Player 1 moved to position (26, 23)
+	Message : Turn 4
+	Message : Player 0 moved to position (13, 16)
+	Message : Player 1 moved to position (26, 24)
+	Message : Turn 5
+	Message : Player 0 moved to position (13, 15)
+	Message : Player 1 moved to position (26, 25)
+	Message : Turn 6
+	Message : Player 0 moved to position (13, 14)
+	Message : Player 1 ate a seed at (27, 25) and changed its length to 3
+	Message : Seed generated at (1, 27)
+	Message : Player 1 moved to position (27, 25)
+	Message : Turn 7
+	Message : Player 0 moved to position (13, 13)
+	Message : Player 1 moved to position (28, 25)
+	Message : Turn 8
+	Message : Player 0 moved to position (13, 12)
+	Message : Player 1 ate a seed at (28, 24) and changed its length to 4
+	Message : Seed generated at (36, 6)
+	Message : Player 1 moved to position (28, 24)
+	Message : Turn 9
+	Message : Player 0 moved to position (13, 11)
+	Message : Player 1 moved to position (28, 23)
+	Message : Turn 10
+	Message : Player 0 moved to position (13, 10)
+	Message : Player 1 moved to position (28, 22)
+	Message : Turn 11
+	Message : Player 0 moved to position (13, 9)
+	Message : Player 1 moved to position (28, 21)
+	Message : Turn 12
+	Message : Player 0 moved to position (13, 8)
+	Message : Player 1 moved to position (28, 20)
+	Message : Turn 13
+	Message : Player 0 moved to position (13, 7)
+	Message : Player 1 moved to position (28, 19)
+	Message : Turn 14
+	Message : Player 0 moved to position (13, 6)
+	Message : Player 1 ate a seed at (28, 18) and changed its length to 5
+	Message : Seed generated at (8, 11)
+	Message : Player 1 moved to position (28, 18)
+	Message : Turn 15
+	Message : Player 0 ate a seed at (12, 6) and changed its length to 3
+	Message : Seed generated at (23, 32)
+	Message : Player 0 moved to position (12, 6)
+	Message : Player 1 moved to position (28, 17)
+	Message : Turn 16
+	Message : Player 0 moved to position (11, 6)
+	Message : Player 1 moved to position (28, 16)
+	Message : Turn 17
+	Message : Player 0 moved to position (10, 6)
+	Message : Player 1 moved to position (28, 15)
+	Message : Turn 18
+	Message : Player 0 ate a seed at (10, 7) and changed its length to 4
+	Message : Seed generated at (15, 32)
+	Message : Player 0 moved to position (10, 7)
+	Message : Player 1 moved to position (28, 14)
+	Message : Turn 19
+	Message : Player 0 moved to position (10, 8)
+	Message : Player 1 moved to position (28, 13)
+	Message : Turn 20
+	Message : Player 0 moved to position (10, 9)
+	Message : Player 1 moved to position (28, 12)
+	Message : Turn 21
+	Message : Player 0 ate a seed at (10, 10) and changed its length to 5
+	Message : Seed generated at (31, 27)
+	Message : Player 0 moved to position (10, 10)
+	Message : Player 1 moved to position (28, 11)
+	Message : Turn 22
+	Message : Player 0 moved to position (10, 11)
+	Message : Player 1 moved to position (28, 10)
+	Message : Turn 23
+	Message : Player 0 moved to position (10, 12)
+	Message : Player 1 moved to position (28, 9)
+	Message : Turn 24
+	Message : Player 0 moved to position (10, 13)
+	Message : Player 1 ate a seed at (29, 9) and changed its length to 6
+	Message : Seed generated at (17, 6)
+	Message : Player 1 moved to position (29, 9)
+	Message : Turn 25
+	Message : Player 0 ate a seed at (10, 14) and changed its length to 6
+	Message : Seed generated at (9, 12)
+	Message : Player 0 moved to position (10, 14)
+	Message : Player 1 moved to position (30, 9)
+	Message : Turn 26
+	Message : Player 0 ate a seed at (10, 15) and changed its length to 7
+	Message : Seed generated at (2, 10)
+	Message : Player 0 moved to position (10, 15)
+	Message : Player 1 moved to position (31, 9)
+	Message : Turn 27
+	Message : Player 0 ate a seed at (10, 16) and changed its length to 8
+	Message : Seed generated at (1, 17)
+	Message : Player 0 moved to position (10, 16)
+	Message : Player 1 moved to position (32, 9)
+	Message : Turn 28
+	Message : Player 0 moved to position (10, 17)
+	Message : Player 1 ate a seed at (32, 10) and changed its length to 7
+	Message : Seed generated at (36, 23)
+	Message : Player 1 moved to position (32, 10)
+	Message : Turn 29
+	Message : Player 0 ate a seed at (10, 18) and changed its length to 9
+	Message : Seed generated at (33, 36)
+	Message : Player 0 moved to position (10, 18)
+	Message : Player 1 moved to position (32, 11)
+	Message : Turn 30
+	Message : Player 0 moved to position (10, 19)
+	Message : Player 1 moved to position (32, 12)
+	Message : Turn 31
+	Message : Player 0 moved to position (10, 20)
+	Message : Player 1 moved to position (32, 13)
+	Message : Turn 32
+	Message : Player 0 ate a seed at (9, 20) and changed its length to 10
+	Message : Seed generated at (5, 34)
+	Message : Player 0 moved to position (9, 20)
+	Message : Player 1 moved to position (32, 14)
+	Message : Turn 33
+	Message : Player 0 moved to position (8, 20)
+	Message : Player 1 ate a seed at (33, 14) and changed its length to 8
+	Message : Seed generated at (24, 32)
+	Message : Player 1 moved to position (33, 14)
+	Message : Turn 34
+	Message : Player 0 ate a seed at (8, 19) and changed its length to 11
+	Message : Seed generated at (15, 34)
+	Message : Player 0 moved to position (8, 19)
+	Message : Player 1 moved to position (34, 14)
+	Message : Turn 35
+	Message : Player 0 moved to position (8, 18)
+	Message : Player 1 ate a seed at (35, 14) and changed its length to 9
+	Message : Seed generated at (25, 38)
+	Message : Player 1 moved to position (35, 14)
+	Message : Turn 36
+	Message : Player 0 moved to position (8, 17)
+	Message : Player 1 moved to position (36, 14)
+	Message : Turn 37
+	Message : Player 0 moved to position (8, 16)
+	Message : Player 1 moved to position (37, 14)
+	Message : Turn 38
+	Message : Player 0 moved to position (8, 15)
+	Message : Player 1 moved to position (38, 14)
+	Message : Turn 39
+	Message : Player 0 moved to position (8, 14)
+	Message : Player 1 moved to position (38, 15)
+	Message : Turn 40
+	Message : Player 0 moved to position (8, 13)
+	Message : Player 1 moved to position (38, 16)
+	Message : Turn 41
+	Message : Player 0 moved to position (8, 12)
+	Message : Player 1 moved to position (38, 17)
+	Message : Turn 42
+	Message : Player 0 ate a seed at (8, 11) and changed its length to 12
+	Message : Seed generated at (22, 26)
+	Message : Player 0 moved to position (8, 11)
+	Message : Player 1 moved to position (38, 18)
+	Message : Turn 43
+	Message : Player 0 moved to position (8, 10)
+	Message : Player 1 moved to position (38, 19)
+	Message : Turn 44
+	Message : Player 0 moved to position (8, 9)
+	Message : Player 1 moved to position (38, 20)
+	Message : Turn 45
+	Message : Player 0 ate a seed at (8, 8) and changed its length to 13
+	Message : Seed generated at (31, 36)
+	Message : Player 0 moved to position (8, 8)
+	Message : Player 1 moved to position (38, 21)
+	Message : Turn 46
+	Message : Player 0 moved to position (8, 7)
+	Message : Player 1 moved to position (38, 22)
+	Message : Turn 47
+	Message : Player 0 ate a seed at (7, 7) and changed its length to 14
+	Message : Seed generated at (19, 1)
+	Message : Player 0 moved to position (7, 7)
+	Message : Player 1 moved to position (38, 23)
+	Message : Turn 48
+	Message : Player 0 moved to position (6, 7)
+	Message : Player 1 moved to position (38, 24)
+	Message : Turn 49
+	Message : Player 0 moved to position (5, 7)
+	Message : Player 1 moved to position (38, 25)
+	Message : Turn 50
+	Message : Player 0 moved to position (4, 7)
+	Message : Player 1 moved to position (38, 26)
+	Message : Turn 51
+	Message : Player 0 moved to position (3, 7)
+	Message : Player 1 ate a seed at (37, 26) and changed its length to 10
+	Message : Seed generated at (24, 36)
+	Message : Player 1 moved to position (37, 26)
+	Message : Turn 52
+	Message : Player 0 moved to position (2, 7)
+	Message : Player 1 moved to position (36, 26)
+	Message : Turn 53
+	Message : Player 0 moved to position (1, 7)
+	Message : Player 1 ate a seed at (35, 26) and changed its length to 11
+	Message : Seed generated at (7, 10)
+	Message : Player 1 moved to position (35, 26)
+	Message : Turn 54
+	Message : Player 0 moved to position (1, 8)
+	Message : Player 1 ate a seed at (35, 25) and changed its length to 12
+	Message : Seed generated at (25, 24)
+	Message : Player 1 moved to position (35, 25)
+	Message : Turn 55
+	Message : Player 0 moved to position (1, 9)
+	Message : Player 1 ate a seed at (35, 24) and changed its length to 13
+	Message : Seed generated at (19, 26)
+	Message : Player 1 moved to position (35, 24)
+	Message : Turn 56
+	Message : Player 0 moved to position (1, 10)
+	Message : Player 1 moved to position (35, 23)
+	Message : Turn 57
+	Message : Player 0 ate a seed at (2, 10) and changed its length to 15
+	Message : Seed generated at (3, 9)
+	Message : Player 0 moved to position (2, 10)
+	Message : Player 1 ate a seed at (36, 23) and changed its length to 14
+	Message : Seed generated at (19, 16)
+	Message : Player 1 moved to position (36, 23)
+	Message : Turn 58
+	Message : Player 0 moved to position (3, 10)
+	Message : Player 1 moved to position (37, 23)
+	Message : Turn 59
+	Message : Player 0 ate a seed at (3, 9) and changed its length to 16
+	Message : Seed generated at (31, 30)
+	Message : Player 0 moved to position (3, 9)
+	Message : Player 1 moved to position (37, 22)
+	Message : Turn 60
+	Message : Player 0 moved to position (3, 8)
+	Message : Player 1 moved to position (37, 21)
+	Message : Turn 61
+	Message : Player 0 moved to position (2, 8)
+	Message : Player 1 ate a seed at (36, 21) and changed its length to 15
+	Message : Seed generated at (13, 13)
+	Message : Player 1 moved to position (36, 21)
+	Message : Turn 62
+	Message : Player 0 moved to position (2, 9)
+	Message : Player 1 moved to position (35, 21)
+	Message : Turn 63
+	Message : Player 0 hit something at (3, 9)
+	Message : Player 0 was removed from the game
+	Message : Player 0 final score : 763
+	Message : Player 1 ate a seed at (34, 21) and changed its length to 16
+	Message : Seed generated at (25, 14)
+	Message : Player 1 moved to position (34, 21)
+	Message : End message sent to player 0
+	Message : Turn 64
+	Message : Player 1 moved to position (33, 21)
+	Message : Turn 65
+	Message : Player 1 ate a seed at (33, 22) and changed its length to 17
+	Message : Seed generated at (6, 22)
+	Message : Player 1 moved to position (33, 22)
+	Message : Turn 66
+	Message : Player 1 ate a seed at (32, 22) and changed its length to 18
+	Message : Seed generated at (29, 36)
+	Message : Player 1 moved to position (32, 22)
+	Message : Turn 67
+	Message : Player 1 moved to position (31, 22)
+	Message : Turn 68
+	Message : Player 1 ate a seed at (31, 21) and changed its length to 19
+	Message : Seed generated at (33, 16)
+	Message : Player 1 moved to position (31, 21)
+	Message : Turn 69
+	Message : Player 1 moved to position (31, 20)
+	Message : Turn 70
+	Message : Player 1 moved to position (31, 19)
+	Message : Turn 71
+	Message : Player 1 moved to position (31, 18)
+	Message : Turn 72
+	Message : Player 1 moved to position (31, 17)
+	Message : Turn 73
+	Message : Player 1 moved to position (31, 16)
+	Message : Turn 74
+	Message : Player 1 ate a seed at (31, 15) and changed its length to 20
+	Message : Seed generated at (36, 16)
+	Message : Player 1 moved to position (31, 15)
+	Message : Turn 75
+	Message : Player 1 moved to position (31, 14)
+	Message : Turn 76
+	Message : Player 1 moved to position (31, 13)
+	Message : Turn 77
+	Message : Player 1 moved to position (31, 12)
+	Message : Turn 78
+	Message : Player 1 moved to position (32, 12)
+	Message : Turn 79
+	Message : Player 1 moved to position (33, 12)
+	Message : Turn 80
+	Message : Player 1 moved to position (34, 12)
+	Message : Turn 81
+	Message : Player 1 moved to position (35, 12)
+	Message : Turn 82
+	Message : Player 1 moved to position (36, 12)
+	Message : Turn 83
+	Message : Player 1 moved to position (37, 12)
+	Message : Turn 84
+	Message : Player 1 moved to position (38, 12)
+	Message : Turn 85
+	Message : Player 1 moved to position (38, 13)
+	Message : Turn 86
+	Message : Player 1 moved to position (38, 14)
+	Message : Turn 87
+	Message : Player 1 moved to position (38, 15)
+	Message : Turn 88
+	Message : Player 1 moved to position (38, 16)
+	Message : Turn 89
+	Message : Player 1 moved to position (38, 17)
+	Message : Turn 90
+	Message : Player 1 moved to position (38, 18)
+	Message : Turn 91
+	Message : Player 1 moved to position (38, 19)
+	Message : Turn 92
+	Message : Player 1 moved to position (38, 20)
+	Message : Turn 93
+	Message : Player 1 moved to position (38, 21)
+	Message : Turn 94
+	Message : Player 1 moved to position (38, 22)
+	Message : Turn 95
+	Message : Player 1 moved to position (38, 23)
+	Message : Turn 96
+	Message : Player 1 moved to position (38, 24)
+	Message : Turn 97
+	Message : Player 1 moved to position (38, 25)
+	Message : Turn 98
+	Message : Player 1 moved to position (38, 26)
+	Message : Turn 99
+	Message : Player 1 moved to position (38, 27)
+	Message : Turn 100
+	Message : Player 1 moved to position (38, 28)
+	Message : Turn 101
+	Message : Player 1 moved to position (38, 29)
+	Message : Turn 102
+	Message : Player 1 moved to position (38, 30)
+	Message : Turn 103
+	Message : Player 1 moved to position (38, 31)
+	Message : Turn 104
+	Message : Player 1 moved to position (38, 32)
+	Message : Turn 105
+	Message : Player 1 moved to position (38, 33)
+	Message : Turn 106
+	Message : Player 1 moved to position (38, 34)
+	Message : Turn 107
+	Message : Player 1 moved to position (38, 35)
+	Message : Turn 108
+	Message : Player 1 moved to position (38, 36)
+	Message : Turn 109
+	Message : Player 1 moved to position (38, 37)
+	Message : Turn 110
+	Message : Player 1 moved to position (38, 38)
+	Message : Turn 111
+	Message : Player 1 moved to position (37, 38)
+	Message : Turn 112
+	Message : Player 1 ate a seed at (36, 38) and changed its length to 21
+	Message : Seed generated at (19, 6)
+	Message : Player 1 moved to position (36, 38)
+	Message : Turn 113
+	Message : Player 1 moved to position (35, 38)
+	Message : Turn 114
+	Message : Player 1 moved to position (34, 38)
+	Message : Turn 115
+	Message : Player 1 moved to position (33, 38)
+	Message : Turn 116
+	Message : Player 1 moved to position (32, 38)
+	Message : Turn 117
+	Message : Player 1 moved to position (31, 38)
+	Message : Turn 118
+	Message : Player 1 moved to position (30, 38)
+	Message : Turn 119
+	Message : Player 1 moved to position (29, 38)
+	Message : Turn 120
+	Message : Player 1 moved to position (28, 38)
+	Message : Turn 121
+	Message : Player 1 moved to position (27, 38)
+	Message : Turn 122
+	Message : Player 1 moved to position (26, 38)
+	Message : Turn 123
+	Message : Player 1 ate a seed at (25, 38) and changed its length to 22
+	Message : Seed generated at (29, 37)
+	Message : Player 1 moved to position (25, 38)
+	Message : Turn 124
+	Message : Player 1 ate a seed at (24, 38) and changed its length to 23
+	Message : Seed generated at (23, 30)
+	Message : Player 1 moved to position (24, 38)
+	Message : Turn 125
+	Message : Player 1 moved to position (23, 38)
+	Message : Turn 126
+	Message : Player 1 moved to position (22, 38)
+	Message : Turn 127
+	Message : Player 1 ate a seed at (21, 38) and changed its length to 24
+	Message : Seed generated at (12, 29)
+	Message : Player 1 moved to position (21, 38)
+	Message : Turn 128
+	Message : Player 1 moved to position (20, 38)
+	Message : Turn 129
+	Message : Player 1 moved to position (19, 38)
+	Message : Turn 130
+	Message : Player 1 moved to position (18, 38)
+	Message : Turn 131
+	Message : Player 1 moved to position (17, 38)
+	Message : Turn 132
+	Message : Player 1 moved to position (16, 38)
+	Message : Turn 133
+	Message : Player 1 moved to position (15, 38)
+	Message : Turn 134
+	Message : Player 1 ate a seed at (15, 37) and changed its length to 25
+	Message : Seed generated at (1, 37)
+	Message : Player 1 moved to position (15, 37)
+	Message : Turn 135
+	Message : Player 1 moved to position (15, 36)
+	Message : Turn 136
+	Message : Player 1 ate a seed at (15, 35) and changed its length to 26
+	Message : Seed generated at (30, 35)
+	Message : Player 1 moved to position (15, 35)
+	Message : Turn 137
+	Message : Player 1 ate a seed at (15, 34) and changed its length to 27
+	Message : Seed generated at (2, 32)
+	Message : Player 1 moved to position (15, 34)
+	Message : Turn 138
+	Message : Player 1 moved to position (15, 33)
+	Message : Turn 139
+	Message : Player 1 ate a seed at (15, 32) and changed its length to 28
+	Message : Seed generated at (5, 36)
+	Message : Player 1 moved to position (15, 32)
+	Message : Turn 140
+	Message : Player 1 moved to position (15, 31)
+	Message : Turn 141
+	Message : Player 1 ate a seed at (15, 30) and changed its length to 29
+	Message : Seed generated at (27, 37)
+	Message : Player 1 moved to position (15, 30)
+	Message : Turn 142
+	Message : Player 1 ate a seed at (14, 30) and changed its length to 30
+	Message : Seed generated at (26, 29)
+	Message : Player 1 moved to position (14, 30)
+	Message : Turn 143
+	Message : Player 1 moved to position (13, 30)
+	Message : Turn 144
+	Message : Player 1 moved to position (12, 30)
+	Message : Turn 145
+	Message : Player 1 ate a seed at (12, 29) and changed its length to 31
+	Message : Seed generated at (29, 10)
+	Message : Player 1 moved to position (12, 29)
+	Message : Turn 146
+	Message : Player 1 ate a seed at (11, 29) and changed its length to 32
+	Message : Seed generated at (28, 19)
+	Message : Player 1 moved to position (11, 29)
+	Message : Turn 147
+	Message : Player 1 moved to position (10, 29)
+	Message : Turn 148
+	Message : Player 1 ate a seed at (9, 29) and changed its length to 33
+	Message : Seed generated at (12, 20)
+	Message : Player 1 moved to position (9, 29)
+	Message : Turn 149
+	Message : Player 1 moved to position (8, 29)
+	Message : Turn 150
+	Message : Player 1 moved to position (7, 29)
+	Message : Turn 151
+	Message : Player 1 moved to position (6, 29)
+	Message : Turn 152
+	Message : Player 1 moved to position (5, 29)
+	Message : Turn 153
+	Message : Player 1 moved to position (4, 29)
+	Message : Turn 154
+	Message : Player 1 moved to position (3, 29)
+	Message : Turn 155
+	Message : Player 1 moved to position (2, 29)
+	Message : Turn 156
+	Message : Player 1 moved to position (1, 29)
+	Message : Turn 157
+	Message : Player 1 moved to position (1, 28)
+	Message : Turn 158
+	Message : Player 1 ate a seed at (1, 27) and changed its length to 34
+	Message : Seed generated at (4, 21)
+	Message : Player 1 moved to position (1, 27)
+	Message : Turn 159
+	Message : Player 1 moved to position (1, 26)
+	Message : Turn 160
+	Message : Player 1 moved to position (1, 25)
+	Message : Turn 161
+	Message : Player 1 moved to position (1, 24)
+	Message : Turn 162
+	Message : Player 1 moved to position (1, 23)
+	Message : Turn 163
+	Message : Player 1 moved to position (1, 22)
+	Message : Turn 164
+	Message : Player 1 ate a seed at (1, 21) and changed its length to 35
+	Message : Seed generated at (7, 26)
+	Message : Player 1 moved to position (1, 21)
+	Message : Turn 165
+	Message : Player 1 moved to position (1, 20)
+	Message : Turn 166
+	Message : Player 1 moved to position (1, 19)
+	Message : Turn 167
+	Message : Player 1 moved to position (1, 18)
+	Message : Turn 168
+	Message : Player 1 ate a seed at (1, 17) and changed its length to 36
+	Message : Seed generated at (12, 18)
+	Message : Player 1 moved to position (1, 17)
+	Message : Turn 169
+	Message : Player 1 moved to position (1, 16)
+	Message : Turn 170
+	Message : Player 1 moved to position (1, 15)
+	Message : Turn 171
+	Message : Player 1 moved to position (1, 14)
+	Message : Turn 172
+	Message : Player 1 moved to position (1, 13)
+	Message : Turn 173
+	Message : Player 1 moved to position (1, 12)
+	Message : Turn 174
+	Message : Player 1 moved to position (1, 11)
+	Message : Turn 175
+	Message : Player 1 moved to position (1, 10)
+	Message : Turn 176
+	Message : Player 1 moved to position (1, 9)
+	Message : Turn 177
+	Message : Player 1 moved to position (1, 8)
+	Message : Turn 178
+	Message : Player 1 moved to position (1, 7)
+	Message : Turn 179
+	Message : Player 1 moved to position (1, 6)
+	Message : Turn 180
+	Message : Player 1 moved to position (1, 5)
+	Message : Turn 181
+	Message : Player 1 ate a seed at (1, 4) and changed its length to 37
+	Message : Seed generated at (32, 28)
+	Message : Player 1 moved to position (1, 4)
+	Message : Turn 182
+	Message : Player 1 moved to position (1, 3)
+	Message : Turn 183
+	Message : Player 1 moved to position (1, 2)
+	Message : Turn 184
+	Message : Player 1 moved to position (1, 1)
+	Message : Turn 185
+	Message : Player 1 ate a seed at (2, 1) and changed its length to 38
+	Message : Seed generated at (32, 23)
+	Message : Player 1 moved to position (2, 1)
+	Message : Turn 186
+	Message : Player 1 moved to position (3, 1)
+	Message : Turn 187
+	Message : Player 1 moved to position (4, 1)
+	Message : Turn 188
+	Message : Player 1 moved to position (5, 1)
+	Message : Turn 189
+	Message : Player 1 moved to position (6, 1)
+	Message : Turn 190
+	Message : Player 1 moved to position (7, 1)
+	Message : Turn 191
+	Message : Player 1 moved to position (8, 1)
+	Message : Turn 192
+	Message : Player 1 moved to position (9, 1)
+	Message : Turn 193
+	Message : Player 1 moved to position (10, 1)
+	Message : Turn 194
+	Message : Player 1 ate a seed at (10, 2) and changed its length to 39
+	Message : Seed generated at (2, 11)
+	Message : Player 1 moved to position (10, 2)
+	Message : Turn 195
+	Message : Player 1 moved to position (10, 3)
+	Message : Turn 196
+	Message : Player 1 moved to position (10, 4)
+	Message : Turn 197
+	Message : Player 1 moved to position (10, 5)
+	Message : Turn 198
+	Message : Player 1 moved to position (10, 6)
+	Message : Turn 199
+	Message : Player 1 moved to position (10, 7)
+	Message : Turn 200
+	Message : Player 1 moved to position (10, 8)
+	Message : Turn 201
+	Message : Player 1 moved to position (10, 9)
+	Message : Turn 202
+	Message : Player 1 moved to position (10, 10)
+	Message : Turn 203
+	Message : Player 1 moved to position (10, 11)
+	Message : Turn 204
+	Message : Player 1 moved to position (10, 12)
+	Message : Turn 205
+	Message : Player 1 ate a seed at (9, 12) and changed its length to 40
+	Message : Seed generated at (33, 23)
+	Message : Player 1 moved to position (9, 12)
+	Message : Turn 206
+	Message : Player 1 moved to position (8, 12)
+	Message : Turn 207
+	Message : Player 1 moved to position (7, 12)
+	Message : Turn 208
+	Message : Player 1 moved to position (6, 12)
+	Message : Turn 209
+	Message : Player 1 moved to position (5, 12)
+	Message : Turn 210
+	Message : Player 1 moved to position (4, 12)
+	Message : Turn 211
+	Message : Player 1 moved to position (3, 12)
+	Message : Turn 212
+	Message : Player 1 moved to position (2, 12)
+	Message : Turn 213
+	Message : Player 1 ate a seed at (2, 11) and changed its length to 41
+	Message : Seed generated at (9, 35)
+	Message : Player 1 moved to position (2, 11)
+	Message : Turn 214
+	Message : Player 1 moved to position (2, 10)
+	Message : Turn 215
+	Message : Player 1 moved to position (2, 9)
+	Message : Turn 216
+	Message : Player 1 moved to position (2, 8)
+	Message : Turn 217
+	Message : Player 1 moved to position (2, 7)
+	Message : Turn 218
+	Message : Player 1 moved to position (2, 6)
+	Message : Turn 219
+	Message : Player 1 moved to position (2, 5)
+	Message : Turn 220
+	Message : Player 1 moved to position (2, 4)
+	Message : Turn 221
+	Message : Player 1 moved to position (2, 3)
+	Message : Turn 222
+	Message : Player 1 moved to position (3, 3)
+	Message : Turn 223
+	Message : Player 1 moved to position (4, 3)
+	Message : Turn 224
+	Message : Player 1 moved to position (5, 3)
+	Message : Turn 225
+	Message : Player 1 moved to position (6, 3)
+	Message : Turn 226
+	Message : Player 1 moved to position (7, 3)
+	Message : Turn 227
+	Message : Player 1 moved to position (8, 3)
+	Message : Turn 228
+	Message : Player 1 moved to position (9, 3)
+	Message : Turn 229
+	Message : Player 1 moved to position (9, 2)
+	Message : Turn 230
+	Message : Player 1 moved to position (8, 2)
+	Message : Turn 231
+	Message : Player 1 moved to position (7, 2)
+	Message : Turn 232
+	Message : Player 1 moved to position (6, 2)
+	Message : Turn 233
+	Message : Player 1 moved to position (5, 2)
+	Message : Turn 234
+	Message : Player 1 moved to position (4, 2)
+	Message : Turn 235
+	Message : Player 1 moved to position (3, 2)
+	Message : Turn 236
+	Message : Player 1 moved to position (2, 2)
+	Message : Turn 237
+	Message : Player 1 moved to position (1, 2)
+	Message : Turn 238
+	Message : Player 1 moved to position (1, 3)
+	Message : Turn 239
+	Message : Player 1 moved to position (1, 4)
+	Message : Turn 240
+	Message : Player 1 moved to position (1, 5)
+	Message : Turn 241
+	Message : Player 1 moved to position (1, 6)
+	Message : Turn 242
+	Message : Player 1 moved to position (1, 7)
+	Message : Turn 243
+	Message : Player 1 moved to position (1, 8)
+	Message : Turn 244
+	Message : Player 1 moved to position (1, 9)
+	Message : Turn 245
+	Message : Player 1 moved to position (1, 10)
+	Message : Turn 246
+	Message : Player 1 moved to position (1, 11)
+	Message : Turn 247
+	Message : Player 1 moved to position (1, 12)
+	Message : Turn 248
+	Message : Player 1 moved to position (1, 13)
+	Message : Turn 249
+	Message : Player 1 moved to position (1, 14)
+	Message : Turn 250
+	Message : Player 1 moved to position (1, 15)
+	Message : Turn 251
+	Message : Player 1 moved to position (1, 16)
+	Message : Turn 252
+	Message : Player 1 moved to position (1, 17)
+	Message : Turn 253
+	Message : Player 1 moved to position (1, 18)
+	Message : Turn 254
+	Message : Player 1 moved to position (1, 19)
+	Message : Turn 255
+	Message : Player 1 moved to position (1, 20)
+	Message : Turn 256
+	Message : Player 1 moved to position (1, 21)
+	Message : Turn 257
+	Message : Player 1 moved to position (1, 22)
+	Message : Turn 258
+	Message : Player 1 moved to position (1, 23)
+	Message : Turn 259
+	Message : Player 1 moved to position (1, 24)
+	Message : Turn 260
+	Message : Player 1 moved to position (1, 25)
+	Message : Turn 261
+	Message : Player 1 moved to position (1, 26)
+	Message : Turn 262
+	Message : Player 1 moved to position (1, 27)
+	Message : Turn 263
+	Message : Player 1 moved to position (1, 28)
+	Message : Turn 264
+	Message : Player 1 moved to position (1, 29)
+	Message : Turn 265
+	Message : Player 1 moved to position (1, 30)
+	Message : Turn 266
+	Message : Player 1 moved to position (1, 31)
+	Message : Turn 267
+	Message : Player 1 moved to position (1, 32)
+	Message : Turn 268
+	Message : Player 1 ate a seed at (2, 32) and changed its length to 42
+	Message : Seed generated at (36, 13)
+	Message : Player 1 moved to position (2, 32)
+	Message : Turn 269
+	Message : Player 1 ate a seed at (2, 33) and changed its length to 43
+	Message : Seed generated at (34, 1)
+	Message : Player 1 moved to position (2, 33)
+	Message : Turn 270
+	Message : Player 1 moved to position (2, 34)
+	Message : Turn 271
+	Message : Player 1 moved to position (2, 35)
+	Message : Turn 272
+	Message : Player 1 moved to position (2, 36)
+	Message : Turn 273
+	Message : Player 1 moved to position (2, 37)
+	Message : Turn 274
+	Message : Player 1 ate a seed at (1, 37) and changed its length to 44
+	Message : Seed generated at (10, 25)
+	Message : Player 1 moved to position (1, 37)
+	Message : Turn 275
+	Message : Player 1 moved to position (1, 38)
+	Message : Turn 276
+	Message : Player 1 moved to position (2, 38)
+	Message : Turn 277
+	Message : Player 1 moved to position (3, 38)
+	Message : Turn 278
+	Message : Player 1 ate a seed at (3, 37) and changed its length to 45
+	Message : Seed generated at (4, 33)
+	Message : Player 1 moved to position (3, 37)
+	Message : Turn 279
+	Message : Player 1 moved to position (3, 36)
+	Message : Turn 280
+	Message : Player 1 moved to position (3, 35)
+	Message : Turn 281
+	Message : Player 1 moved to position (3, 34)
+	Message : Turn 282
+	Message : Player 1 moved to position (3, 33)
+	Message : Turn 283
+	Message : Player 1 ate a seed at (4, 33) and changed its length to 46
+	Message : Seed generated at (25, 16)
+	Message : Player 1 moved to position (4, 33)
+	Message : Turn 284
+	Message : Player 1 ate a seed at (4, 32) and changed its length to 47
+	Message : Seed generated at (30, 33)
+	Message : Player 1 moved to position (4, 32)
+	Message : Turn 285
+	Message : Player 1 moved to position (4, 31)
+	Message : Turn 286
+	Message : Player 1 moved to position (4, 30)
+	Message : Turn 287
+	Message : Player 1 moved to position (4, 29)
+	Message : Turn 288
+	Message : Player 1 moved to position (4, 28)
+	Message : Turn 289
+	Message : Player 1 ate a seed at (4, 27) and changed its length to 48
+	Message : Seed generated at (23, 11)
+	Message : Player 1 moved to position (4, 27)
+	Message : Turn 290
+	Message : Player 1 moved to position (4, 26)
+	Message : Turn 291
+	Message : Player 1 moved to position (4, 25)
+	Message : Turn 292
+	Message : Player 1 moved to position (4, 24)
+	Message : Turn 293
+	Message : Player 1 moved to position (4, 23)
+	Message : Turn 294
+	Message : Player 1 moved to position (4, 22)
+	Message : Turn 295
+	Message : Player 1 ate a seed at (4, 21) and changed its length to 49
+	Message : Seed generated at (16, 29)
+	Message : Player 1 moved to position (4, 21)
+	Message : Turn 296
+	Message : Player 1 ate a seed at (5, 21) and changed its length to 50
+	Message : Seed generated at (14, 5)
+	Message : Player 1 moved to position (5, 21)
+	Message : Turn 297
+	Message : Seed generated at (25, 23)
+	Message : Player 1 moved to position (5, 22)
+	Message : Turn 298
+	Message : Seed generated at (33, 18)
+	Message : Player 1 moved to position (6, 22)
+	Message : Turn 299
+	Message : Seed generated at (29, 34)
+	Message : Player 1 moved to position (7, 22)
+	Message : Turn 300
+	Message : Player 1 moved to position (8, 22)
+	Message : Turn 301
+	Message : Player 1 moved to position (9, 22)
+	Message : Turn 302
+	Message : Player 1 moved to position (10, 22)
+	Message : Turn 303
+	Message : Player 1 moved to position (11, 22)
+	Message : Turn 304
+	Message : Player 1 moved to position (12, 22)
+	Message : Turn 305
+	Message : Player 1 moved to position (13, 22)
+	Message : Turn 306
+	Message : Player 1 moved to position (14, 22)
+	Message : Turn 307
+	Message : Player 1 moved to position (15, 22)
+	Message : Turn 308
+	Message : Player 1 moved to position (16, 22)
+	Message : Turn 309
+	Message : Player 1 moved to position (17, 22)
+	Message : Turn 310
+	Message : Player 1 moved to position (18, 22)
+	Message : Turn 311
+	Message : Player 1 moved to position (19, 22)
+	Message : Turn 312
+	Message : Player 1 moved to position (20, 22)
+	Message : Turn 313
+	Message : Seed generated at (34, 15)
+	Message : Player 1 moved to position (21, 22)
+	Message : Turn 314
+	Message : Player 1 moved to position (22, 22)
+	Message : Turn 315
+	Message : Player 1 moved to position (23, 22)
+	Message : Turn 316
+	Message : Player 1 moved to position (24, 22)
+	Message : Turn 317
+	Message : Player 1 moved to position (25, 22)
+	Message : Turn 318
+	Message : Seed generated at (30, 31)
+	Message : Player 1 moved to position (25, 23)
+	Message : Turn 319
+	Message : Seed generated at (27, 3)
+	Message : Player 1 moved to position (25, 24)
+	Message : Turn 320
+	Message : Player 1 moved to position (25, 25)
+	Message : Turn 321
+	Message : Player 1 moved to position (25, 26)
+	Message : Turn 322
+	Message : Player 1 moved to position (25, 27)
+	Message : Turn 323
+	Message : Player 1 moved to position (25, 28)
+	Message : Turn 324
+	Message : Player 1 moved to position (25, 29)
+	Message : Turn 325
+	Message : Seed generated at (32, 24)
+	Message : Player 1 moved to position (26, 29)
+	Message : Turn 326
+	Message : Seed generated at (26, 19)
+	Message : Player 1 moved to position (27, 29)
+	Message : Turn 327
+	Message : Player 1 moved to position (28, 29)
+	Message : Turn 328
+	Message : Player 1 moved to position (29, 29)
+	Message : Turn 329
+	Message : Player 1 moved to position (30, 29)
+	Message : Turn 330
+	Message : Player 1 moved to position (31, 29)
+	Message : Turn 331
+	Message : Seed generated at (11, 8)
+	Message : Player 1 moved to position (31, 30)
+	Message : Turn 332
+	Message : Player 1 moved to position (31, 31)
+	Message : Turn 333
+	Message : Seed generated at (1, 21)
+	Message : Player 1 moved to position (30, 31)
+	Message : Turn 334
+	Message : Player 1 moved to position (29, 31)
+	Message : Turn 335
+	Message : Player 1 moved to position (28, 31)
+	Message : Turn 336
+	Message : Player 1 moved to position (27, 31)
+	Message : Turn 337
+	Message : Player 1 moved to position (26, 31)
+	Message : Turn 338
+	Message : Player 1 moved to position (25, 31)
+	Message : Turn 339
+	Message : Player 1 moved to position (24, 31)
+	Message : Turn 340
+	Message : Seed generated at (7, 1)
+	Message : Player 1 moved to position (24, 32)
+	Message : Turn 341
+	Message : Seed generated at (31, 22)
+	Message : Player 1 moved to position (23, 32)
+	Message : Turn 342
+	Message : Seed generated at (30, 23)
+	Message : Player 1 moved to position (23, 33)
+	Message : Turn 343
+	Message : Player 1 moved to position (23, 34)
+	Message : Turn 344
+	Message : Player 1 moved to position (23, 35)
+	Message : Turn 345
+	Message : Player 1 moved to position (23, 36)
+	Message : Turn 346
+	Message : Seed generated at (5, 16)
+	Message : Player 1 moved to position (24, 36)
+	Message : Turn 347
+	Message : Player 1 moved to position (25, 36)
+	Message : Turn 348
+	Message : Player 1 moved to position (26, 36)
+	Message : Turn 349
+	Message : Player 1 moved to position (27, 36)
+	Message : Turn 350
+	Message : Seed generated at (7, 37)
+	Message : Player 1 moved to position (27, 37)
+	Message : Turn 351
+	Message : Player 1 moved to position (27, 38)
+	Message : Turn 352
+	Message : Player 1 moved to position (26, 38)
+	Message : Turn 353
+	Message : Player 1 moved to position (25, 38)
+	Message : Turn 354
+	Message : Player 1 moved to position (24, 38)
+	Message : Turn 355
+	Message : Player 1 moved to position (23, 38)
+	Message : Turn 356
+	Message : Player 1 moved to position (22, 38)
+	Message : Turn 357
+	Message : Player 1 moved to position (21, 38)
+	Message : Turn 358
+	Message : Player 1 moved to position (20, 38)
+	Message : Turn 359
+	Message : Player 1 moved to position (19, 38)
+	Message : Turn 360
+	Message : Player 1 moved to position (18, 38)
+	Message : Turn 361
+	Message : Player 1 moved to position (17, 38)
+	Message : Turn 362
+	Message : Player 1 moved to position (16, 38)
+	Message : Turn 363
+	Message : Player 1 moved to position (15, 38)
+	Message : Turn 364
+	Message : Player 1 moved to position (14, 38)
+	Message : Turn 365
+	Message : Player 1 moved to position (13, 38)
+	Message : Turn 366
+	Message : Player 1 moved to position (12, 38)
+	Message : Turn 367
+	Message : Player 1 moved to position (11, 38)
+	Message : Turn 368
+	Message : Player 1 moved to position (10, 38)
+	Message : Turn 369
+	Message : Player 1 moved to position (9, 38)
+	Message : Turn 370
+	Message : Player 1 moved to position (8, 38)
+	Message : Turn 371
+	Message : Player 1 moved to position (7, 38)
+	Message : Turn 372
+	Message : Seed generated at (11, 30)
+	Message : Player 1 moved to position (7, 37)
+	Message : Turn 373
+	Message : Player 1 moved to position (7, 36)
+	Message : Turn 374
+	Message : Player 1 moved to position (7, 35)
+	Message : Turn 375
+	Message : Player 1 moved to position (7, 34)
+	Message : Turn 376
+	Message : Player 1 moved to position (7, 33)
+	Message : Turn 377
+	Message : Player 1 moved to position (7, 32)
+	Message : Turn 378
+	Message : Player 1 moved to position (7, 31)
+	Message : Turn 379
+	Message : Player 1 moved to position (7, 30)
+	Message : Turn 380
+	Message : Player 1 moved to position (7, 29)
+	Message : Turn 381
+	Message : Player 1 moved to position (7, 28)
+	Message : Turn 382
+	Message : Player 1 moved to position (7, 27)
+	Message : Turn 383
+	Message : Seed generated at (26, 1)
+	Message : Player 1 moved to position (7, 26)
+	Message : Turn 384
+	Message : Seed generated at (25, 22)
+	Message : Player 1 moved to position (8, 26)
+	Message : Turn 385
+	Message : Player 1 moved to position (9, 26)
+	Message : Turn 386
+	Message : Player 1 moved to position (10, 26)
+	Message : Turn 387
+	Message : Seed generated at (31, 17)
+	Message : Player 1 moved to position (10, 25)
+	Message : Turn 388
+	Message : Player 1 moved to position (10, 24)
+	Message : Turn 389
+	Message : Player 1 moved to position (10, 23)
+	Message : Turn 390
+	Message : Player 1 moved to position (9, 23)
+	Message : Turn 391
+	Message : Player 1 moved to position (8, 23)
+	Message : Turn 392
+	Message : Player 1 moved to position (7, 23)
+	Message : Turn 393
+	Message : Player 1 moved to position (6, 23)
+	Message : Turn 394
+	Message : Player 1 moved to position (5, 23)
+	Message : Turn 395
+	Message : Player 1 moved to position (4, 23)
+	Message : Turn 396
+	Message : Player 1 moved to position (3, 23)
+	Message : Turn 397
+	Message : Player 1 moved to position (2, 23)
+	Message : Turn 398
+	Message : Player 1 moved to position (1, 23)
+	Message : Turn 399
+	Message : Player 1 moved to position (1, 24)
+	Message : Turn 400
+	Message : Player 1 moved to position (1, 25)
+	Message : Turn 401
+	Message : Player 1 moved to position (1, 26)
+	Message : Turn 402
+	Message : Player 1 moved to position (1, 27)
+	Message : Turn 403
+	Message : Player 1 moved to position (1, 28)
+	Message : Turn 404
+	Message : Player 1 moved to position (1, 29)
+	Message : Turn 405
+	Message : Player 1 moved to position (1, 30)
+	Message : Turn 406
+	Message : Player 1 moved to position (1, 31)
+	Message : Turn 407
+	Message : Player 1 moved to position (1, 32)
+	Message : Turn 408
+	Message : Player 1 moved to position (1, 33)
+	Message : Turn 409
+	Message : Player 1 moved to position (1, 34)
+	Message : Turn 410
+	Message : Player 1 moved to position (1, 35)
+	Message : Turn 411
+	Message : Player 1 moved to position (1, 36)
+	Message : Turn 412
+	Message : Player 1 moved to position (1, 37)
+	Message : Turn 413
+	Message : Player 1 moved to position (1, 38)
+	Message : Turn 414
+	Message : Player 1 moved to position (2, 38)
+	Message : Turn 415
+	Message : Player 1 moved to position (3, 38)
+	Message : Turn 416
+	Message : Player 1 moved to position (4, 38)
+	Message : Turn 417
+	Message : Player 1 moved to position (5, 38)
+	Message : Turn 418
+	Message : Player 1 moved to position (6, 38)
+	Message : Turn 419
+	Message : Player 1 moved to position (6, 37)
+	Message : Turn 420
+	Message : Player 1 moved to position (6, 36)
+	Message : Turn 421
+	Message : Seed generated at (14, 36)
+	Message : Player 1 moved to position (5, 36)
+	Message : Turn 422
+	Message : Player 1 moved to position (4, 36)
+	Message : Turn 423
+	Message : Player 1 moved to position (3, 36)
+	Message : Turn 424
+	Message : Player 1 moved to position (2, 36)
+	Message : Turn 425
+	Message : Player 1 moved to position (2, 35)
+	Message : Turn 426
+	Message : Player 1 moved to position (2, 34)
+	Message : Turn 427
+	Message : Player 1 moved to position (2, 33)
+	Message : Turn 428
+	Message : Player 1 moved to position (2, 32)
+	Message : Turn 429
+	Message : Player 1 moved to position (2, 31)
+	Message : Turn 430
+	Message : Player 1 moved to position (2, 30)
+	Message : Turn 431
+	Message : Player 1 moved to position (2, 29)
+	Message : Turn 432
+	Message : Player 1 moved to position (2, 28)
+	Message : Turn 433
+	Message : Player 1 moved to position (2, 27)
+	Message : Turn 434
+	Message : Player 1 moved to position (2, 26)
+	Message : Turn 435
+	Message : Player 1 moved to position (2, 25)
+	Message : Turn 436
+	Message : Player 1 moved to position (2, 24)
+	Message : Turn 437
+	Message : Player 1 moved to position (3, 24)
+	Message : Turn 438
+	Message : Player 1 moved to position (4, 24)
+	Message : Turn 439
+	Message : Player 1 moved to position (5, 24)
+	Message : Turn 440
+	Message : Player 1 moved to position (6, 24)
+	Message : Turn 441
+	Message : Player 1 moved to position (7, 24)
+	Message : Turn 442
+	Message : Player 1 moved to position (8, 24)
+	Message : Turn 443
+	Message : Player 1 moved to position (9, 24)
+	Message : Turn 444
+	Message : Player 1 moved to position (10, 24)
+	Message : Turn 445
+	Message : Player 1 moved to position (11, 24)
+	Message : Turn 446
+	Message : Player 1 moved to position (12, 24)
+	Message : Turn 447
+	Message : Seed generated at (19, 23)
+	Message : Player 1 moved to position (12, 25)
+	Message : Turn 448
+	Message : Seed generated at (21, 23)
+	Message : Player 1 moved to position (13, 25)
+	Message : Turn 449
+	Message : Player 1 moved to position (14, 25)
+	Message : Turn 450
+	Message : Player 1 moved to position (15, 25)
+	Message : Turn 451
+	Message : Player 1 moved to position (16, 25)
+	Message : Turn 452
+	Message : Seed generated at (4, 31)
+	Message : Player 1 moved to position (16, 26)
+	Message : Turn 453
+	Message : Player 1 moved to position (16, 27)
+	Message : Turn 454
+	Message : Player 1 moved to position (16, 28)
+	Message : Turn 455
+	Message : Seed generated at (8, 32)
+	Message : Player 1 moved to position (16, 29)
+	Message : Turn 456
+	Message : Player 1 moved to position (16, 30)
+	Message : Turn 457
+	Message : Player 1 moved to position (16, 31)
+	Message : Turn 458
+	Message : Seed generated at (21, 24)
+	Message : Player 1 moved to position (17, 31)
+	Message : Turn 459
+	Message : Player 1 moved to position (18, 31)
+	Message : Turn 460
+	Message : Player 1 moved to position (18, 30)
+	Message : Turn 461
+	Message : Player 1 moved to position (18, 29)
+	Message : Turn 462
+	Message : Player 1 moved to position (18, 28)
+	Message : Turn 463
+	Message : Player 1 moved to position (18, 27)
+	Message : Turn 464
+	Message : Player 1 moved to position (18, 26)
+	Message : Turn 465
+	Message : Seed generated at (30, 28)
+	Message : Player 1 moved to position (18, 25)
+	Message : Turn 466
+	Message : Seed generated at (24, 1)
+	Message : Player 1 moved to position (18, 24)
+	Message : Turn 467
+	Message : Player 1 moved to position (18, 23)
+	Message : Turn 468
+	Message : Seed generated at (23, 31)
+	Message : Player 1 moved to position (19, 23)
+	Message : Turn 469
+	Message : Player 1 moved to position (20, 23)
+	Message : Turn 470
+	Message : Seed generated at (8, 29)
+	Message : Player 1 moved to position (20, 24)
+	Message : Turn 471
+	Message : Seed generated at (29, 19)
+	Message : Player 1 moved to position (21, 24)
+	Message : Turn 472
+	Message : Seed generated at (21, 33)
+	Message : Player 1 moved to position (21, 23)
+	Message : Turn 473
+	Message : Player 1 moved to position (21, 22)
+	Message : Turn 474
+	Message : Player 1 moved to position (21, 21)
+	Message : Turn 475
+	Message : Player 1 moved to position (21, 20)
+	Message : Turn 476
+	Message : Player 1 moved to position (21, 19)
+	Message : Turn 477
+	Message : Player 1 moved to position (21, 18)
+	Message : Turn 478
+	Message : Player 1 moved to position (21, 17)
+	Message : Turn 479
+	Message : Player 1 moved to position (21, 16)
+	Message : Turn 480
+	Message : Player 1 moved to position (21, 15)
+	Message : Turn 481
+	Message : Player 1 moved to position (21, 14)
+	Message : Turn 482
+	Message : Player 1 moved to position (21, 13)
+	Message : Turn 483
+	Message : Player 1 moved to position (22, 13)
+	Message : Turn 484
+	Message : Player 1 moved to position (23, 13)
+	Message : Turn 485
+	Message : Player 1 moved to position (24, 13)
+	Message : Turn 486
+	Message : Seed generated at (35, 23)
+	Message : Player 1 moved to position (24, 12)
+	Message : Turn 487
+	Message : Seed generated at (17, 7)
+	Message : Player 1 moved to position (24, 11)
+	Message : Turn 488
+	Message : Seed generated at (8, 23)
+	Message : Player 1 moved to position (24, 10)
+	Message : Turn 489
+	Message : Player 1 moved to position (24, 9)
+	Message : Turn 490
+	Message : Player 1 moved to position (24, 8)
+	Message : Turn 491
+	Message : Player 1 moved to position (24, 7)
+	Message : Turn 492
+	Message : Player 1 moved to position (24, 6)
+	Message : Turn 493
+	Message : Seed generated at (36, 11)
+	Message : Player 1 moved to position (24, 5)
+	Message : Turn 494
+	Message : Seed generated at (32, 21)
+	Message : Player 1 moved to position (25, 5)
+	Message : Turn 495
+	Message : Player 1 moved to position (26, 5)
+	Message : Turn 496
+	Message : Seed generated at (20, 14)
+	Message : Player 1 moved to position (27, 5)
+	Message : Turn 497
+	Message : Player 1 moved to position (28, 5)
+	Message : Turn 498
+	Message : Player 1 moved to position (29, 5)
+	Message : Turn 499
+	Message : Player 1 moved to position (30, 5)
+	Message : Turn 500
+	Message : Player 1 moved to position (31, 5)
+	Message : Turn 501
+	Message : Player 1 moved to position (32, 5)
+	Message : Turn 502
+	Message : Player 1 moved to position (33, 5)
+	Message : Turn 503
+	Message : Player 1 moved to position (34, 5)
+	Message : Turn 504
+	Message : Player 1 moved to position (35, 5)
+	Message : Turn 505
+	Message : Player 1 moved to position (36, 5)
+	Message : Turn 506
+	Message : Seed generated at (6, 12)
+	Message : Player 1 moved to position (36, 6)
+	Message : Turn 507
+	Message : Player 1 moved to position (36, 7)
+	Message : Turn 508
+	Message : Player 1 moved to position (36, 8)
+	Message : Turn 509
+	Message : Player 1 moved to position (36, 9)
+	Message : Turn 510
+	Message : Player 1 moved to position (36, 10)
+	Message : Turn 511
+	Message : Seed generated at (3, 29)
+	Message : Player 1 moved to position (36, 11)
+	Message : Turn 512
+	Message : Player 1 moved to position (36, 12)
+	Message : Turn 513
+	Message : Seed generated at (12, 30)
+	Message : Player 1 moved to position (36, 13)
+	Message : Turn 514
+	Message : Player 1 moved to position (36, 14)
+	Message : Turn 515
+	Message : Player 1 moved to position (36, 15)
+	Message : Turn 516
+	Message : Seed generated at (22, 34)
+	Message : Player 1 moved to position (36, 16)
+	Message : Turn 517
+	Message : Player 1 moved to position (36, 17)
+	Message : Turn 518
+	Message : Player 1 moved to position (36, 18)
+	Message : Turn 519
+	Message : Player 1 moved to position (36, 19)
+	Message : Turn 520
+	Message : Player 1 moved to position (36, 20)
+	Message : Turn 521
+	Message : Player 1 moved to position (36, 21)
+	Message : Turn 522
+	Message : Player 1 moved to position (36, 22)
+	Message : Turn 523
+	Message : Player 1 moved to position (36, 23)
+	Message : Turn 524
+	Message : Seed generated at (22, 29)
+	Message : Player 1 moved to position (35, 23)
+	Message : Turn 525
+	Message : Player 1 moved to position (34, 23)
+	Message : Turn 526
+	Message : Seed generated at (2, 29)
+	Message : Player 1 moved to position (33, 23)
+	Message : Turn 527
+	Message : Seed generated at (9, 22)
+	Message : Player 1 moved to position (32, 23)
+	Message : Turn 528
+	Message : Seed generated at (23, 22)
+	Message : Player 1 moved to position (32, 24)
+	Message : Turn 529
+	Message : Player 1 moved to position (32, 25)
+	Message : Turn 530
+	Message : Player 1 moved to position (32, 26)
+	Message : Turn 531
+	Message : Player 1 moved to position (32, 27)
+	Message : Turn 532
+	Message : Seed generated at (23, 38)
+	Message : Player 1 moved to position (32, 28)
+	Message : Turn 533
+	Message : Player 1 moved to position (32, 29)
+	Message : Turn 534
+	Message : Player 1 moved to position (32, 30)
+	Message : Turn 535
+	Message : Player 1 moved to position (32, 31)
+	Message : Turn 536
+	Message : Player 1 moved to position (32, 32)
+	Message : Turn 537
+	Message : Player 1 moved to position (32, 33)
+	Message : Turn 538
+	Message : Player 1 moved to position (32, 34)
+	Message : Turn 539
+	Message : Player 1 moved to position (32, 35)
+	Message : Turn 540
+	Message : Seed generated at (11, 1)
+	Message : Player 1 moved to position (31, 35)
+	Message : Turn 541
+	Message : Seed generated at (22, 13)
+	Message : Player 1 moved to position (31, 36)
+	Message : Turn 542
+	Message : Player 1 moved to position (31, 37)
+	Message : Turn 543
+	Message : Player 1 moved to position (31, 38)
+	Message : Turn 544
+	Message : Player 1 moved to position (32, 38)
+	Message : Turn 545
+	Message : Player 1 moved to position (33, 38)
+	Message : Turn 546
+	Message : Player 1 moved to position (34, 38)
+	Message : Turn 547
+	Message : Player 1 moved to position (35, 38)
+	Message : Turn 548
+	Message : Player 1 moved to position (36, 38)
+	Message : Turn 549
+	Message : Player 1 moved to position (37, 38)
+	Message : Turn 550
+	Message : Player 1 moved to position (38, 38)
+	Message : Turn 551
+	Message : Player 1 moved to position (38, 37)
+	Message : Turn 552
+	Message : Player 1 moved to position (38, 36)
+	Message : Turn 553
+	Message : Player 1 moved to position (38, 35)
+	Message : Turn 554
+	Message : Player 1 moved to position (38, 34)
+	Message : Turn 555
+	Message : Player 1 moved to position (38, 33)
+	Message : Turn 556
+	Message : Player 1 moved to position (38, 32)
+	Message : Turn 557
+	Message : Player 1 moved to position (38, 31)
+	Message : Turn 558
+	Message : Player 1 moved to position (38, 30)
+	Message : Turn 559
+	Message : Player 1 moved to position (38, 29)
+	Message : Turn 560
+	Message : Player 1 moved to position (38, 28)
+	Message : Turn 561
+	Message : Player 1 moved to position (38, 27)
+	Message : Turn 562
+	Message : Player 1 moved to position (38, 26)
+	Message : Turn 563
+	Message : Player 1 moved to position (38, 25)
+	Message : Turn 564
+	Message : Player 1 moved to position (38, 24)
+	Message : Turn 565
+	Message : Player 1 moved to position (38, 23)
+	Message : Turn 566
+	Message : Player 1 moved to position (38, 22)
+	Message : Turn 567
+	Message : Player 1 moved to position (38, 21)
+	Message : Turn 568
+	Message : Player 1 moved to position (38, 20)
+	Message : Turn 569
+	Message : Player 1 moved to position (38, 19)
+	Message : Turn 570
+	Message : Player 1 moved to position (38, 18)
+	Message : Turn 571
+	Message : Player 1 moved to position (38, 17)
+	Message : Turn 572
+	Message : Player 1 moved to position (38, 16)
+	Message : Turn 573
+	Message : Player 1 moved to position (38, 15)
+	Message : Turn 574
+	Message : Player 1 moved to position (38, 14)
+	Message : Turn 575
+	Message : Player 1 moved to position (38, 13)
+	Message : Turn 576
+	Message : Player 1 moved to position (38, 12)
+	Message : Turn 577
+	Message : Player 1 moved to position (38, 11)
+	Message : Turn 578
+	Message : Player 1 moved to position (38, 10)
+	Message : Turn 579
+	Message : Player 1 moved to position (38, 9)
+	Message : Turn 580
+	Message : Player 1 moved to position (38, 8)
+	Message : Turn 581
+	Message : Player 1 moved to position (38, 7)
+	Message : Turn 582
+	Message : Player 1 moved to position (38, 6)
+	Message : Turn 583
+	Message : Player 1 moved to position (38, 5)
+	Message : Turn 584
+	Message : Player 1 moved to position (38, 4)
+	Message : Turn 585
+	Message : Player 1 moved to position (38, 3)
+	Message : Turn 586
+	Message : Player 1 moved to position (38, 2)
+	Message : Turn 587
+	Message : Player 1 moved to position (38, 1)
+	Message : Turn 588
+	Message : Player 1 moved to position (37, 1)
+	Message : Turn 589
+	Message : Player 1 moved to position (36, 1)
+	Message : Turn 590
+	Message : Player 1 moved to position (35, 1)
+	Message : Turn 591
+	Message : Seed generated at (14, 29)
+	Message : Player 1 moved to position (34, 1)
+	Message : Turn 592
+	Message : Player 1 moved to position (33, 1)
+	Message : Turn 593
+	Message : Player 1 moved to position (32, 1)
+	Message : Turn 594
+	Message : Player 1 moved to position (31, 1)
+	Message : Turn 595
+	Message : Player 1 moved to position (30, 1)
+	Message : Turn 596
+	Message : Player 1 moved to position (29, 1)
+	Message : Turn 597
+	Message : Player 1 moved to position (28, 1)
+	Message : Turn 598
+	Message : Player 1 moved to position (27, 1)
+	Message : Turn 599
+	Message : Seed generated at (13, 27)
+	Message : Player 1 moved to position (26, 1)
+	Message : Turn 600
+	Message : Player 1 moved to position (25, 1)
+	Message : Turn 601
+	Message : Seed generated at (9, 37)
+	Message : Player 1 moved to position (24, 1)
+	Message : Turn 602
+	Message : Player 1 moved to position (23, 1)
+	Message : Turn 603
+	Message : Player 1 moved to position (22, 1)
+	Message : Turn 604
+	Message : Player 1 moved to position (21, 1)
+	Message : Turn 605
+	Message : Player 1 moved to position (20, 1)
+	Message : Turn 606
+	Message : Seed generated at (20, 30)
+	Message : Player 1 moved to position (20, 2)
+	Message : Turn 607
+	Message : Player 1 moved to position (20, 3)
+	Message : Turn 608
+	Message : Player 1 moved to position (20, 4)
+	Message : Turn 609
+	Message : Seed generated at (26, 38)
+	Message : Player 1 moved to position (21, 4)
+	Message : Turn 610
+	Message : Player 1 moved to position (22, 4)
+	Message : Turn 611
+	Message : Player 1 moved to position (23, 4)
+	Message : Turn 612
+	Message : Player 1 moved to position (24, 4)
+	Message : Turn 613
+	Message : Player 1 moved to position (25, 4)
+	Message : Turn 614
+	Message : Player 1 moved to position (26, 4)
+	Message : Turn 615
+	Message : Player 1 moved to position (27, 4)
+	Message : Turn 616
+	Message : Seed generated at (21, 15)
+	Message : Player 1 moved to position (27, 3)
+	Message : Turn 617
+	Message : Player 1 moved to position (27, 2)
+	Message : Turn 618
+	Message : Player 1 moved to position (28, 2)
+	Message : Turn 619
+	Message : Player 1 moved to position (29, 2)
+	Message : Turn 620
+	Message : Player 1 moved to position (30, 2)
+	Message : Turn 621
+	Message : Player 1 moved to position (31, 2)
+	Message : Turn 622
+	Message : Player 1 moved to position (32, 2)
+	Message : Turn 623
+	Message : Seed generated at (29, 4)
+	Message : Player 1 moved to position (32, 3)
+	Message : Turn 624
+	Message : Player 1 moved to position (32, 4)
+	Message : Turn 625
+	Message : Player 1 moved to position (32, 5)
+	Message : Turn 626
+	Message : Player 1 moved to position (32, 6)
+	Message : Turn 627
+	Message : Player 1 moved to position (32, 7)
+	Message : Turn 628
+	Message : Player 1 moved to position (32, 8)
+	Message : Turn 629
+	Message : Player 1 moved to position (32, 9)
+	Message : Turn 630
+	Message : Player 1 moved to position (32, 10)
+	Message : Turn 631
+	Message : Player 1 moved to position (32, 11)
+	Message : Turn 632
+	Message : Player 1 moved to position (32, 12)
+	Message : Turn 633
+	Message : Player 1 moved to position (32, 13)
+	Message : Turn 634
+	Message : Player 1 moved to position (32, 14)
+	Message : Turn 635
+	Message : Player 1 moved to position (32, 15)
+	Message : Turn 636
+	Message : Player 1 moved to position (32, 16)
+	Message : Turn 637
+	Message : Seed generated at (26, 29)
+	Message : Player 1 moved to position (33, 16)
+	Message : Turn 638
+	Message : Player 1 moved to position (34, 16)
+	Message : Turn 639
+	Message : Seed generated at (10, 27)
+	Message : Player 1 moved to position (34, 15)
+	Message : Turn 640
+	Message : Player 1 moved to position (33, 15)
+	Message : Turn 641
+	Message : Player 1 moved to position (33, 14)
+	Message : Turn 642
+	Message : Player 1 moved to position (33, 13)
+	Message : Turn 643
+	Message : Player 1 moved to position (33, 12)
+	Message : Turn 644
+	Message : Player 1 moved to position (33, 11)
+	Message : Turn 645
+	Message : Player 1 moved to position (33, 10)
+	Message : Turn 646
+	Message : Player 1 moved to position (33, 9)
+	Message : Turn 647
+	Message : Player 1 moved to position (33, 8)
+	Message : Turn 648
+	Message : Player 1 moved to position (33, 7)
+	Message : Turn 649
+	Message : Player 1 moved to position (33, 6)
+	Message : Turn 650
+	Message : Player 1 moved to position (33, 5)
+	Message : Turn 651
+	Message : Player 1 moved to position (33, 4)
+	Message : Turn 652
+	Message : Player 1 moved to position (33, 3)
+	Message : Turn 653
+	Message : Player 1 moved to position (33, 2)
+	Message : Turn 654
+	Message : Player 1 moved to position (33, 1)
+	Message : Turn 655
+	Message : Player 1 moved to position (34, 1)
+	Message : Turn 656
+	Message : Player 1 moved to position (35, 1)
+	Message : Turn 657
+	Message : Player 1 moved to position (36, 1)
+	Message : Turn 658
+	Message : Player 1 moved to position (37, 1)
+	Message : Turn 659
+	Message : Player 1 moved to position (38, 1)
+	Message : Turn 660
+	Message : Player 1 moved to position (38, 2)
+	Message : Turn 661
+	Message : Player 1 moved to position (38, 3)
+	Message : Turn 662
+	Message : Player 1 moved to position (38, 4)
+	Message : Turn 663
+	Message : Player 1 moved to position (38, 5)
+	Message : Turn 664
+	Message : Player 1 moved to position (38, 6)
+	Message : Turn 665
+	Message : Player 1 moved to position (38, 7)
+	Message : Turn 666
+	Message : Player 1 moved to position (38, 8)
+	Message : Turn 667
+	Message : Player 1 moved to position (38, 9)
+	Message : Turn 668
+	Message : Player 1 moved to position (38, 10)
+	Message : Turn 669
+	Message : Player 1 moved to position (38, 11)
+	Message : Turn 670
+	Message : Player 1 moved to position (38, 12)
+	Message : Turn 671
+	Message : Player 1 moved to position (38, 13)
+	Message : Turn 672
+	Message : Player 1 moved to position (38, 14)
+	Message : Turn 673
+	Message : Player 1 moved to position (38, 15)
+	Message : Turn 674
+	Message : Player 1 moved to position (38, 16)
+	Message : Turn 675
+	Message : Player 1 moved to position (38, 17)
+	Message : Turn 676
+	Message : Player 1 moved to position (38, 18)
+	Message : Turn 677
+	Message : Player 1 moved to position (38, 19)
+	Message : Turn 678
+	Message : Player 1 moved to position (38, 20)
+	Message : Turn 679
+	Message : Player 1 moved to position (38, 21)
+	Message : Turn 680
+	Message : Player 1 moved to position (38, 22)
+	Message : Turn 681
+	Message : Player 1 moved to position (38, 23)
+	Message : Turn 682
+	Message : Player 1 moved to position (38, 24)
+	Message : Turn 683
+	Message : Player 1 moved to position (38, 25)
+	Message : Turn 684
+	Message : Player 1 moved to position (38, 26)
+	Message : Turn 685
+	Message : Player 1 moved to position (38, 27)
+	Message : Turn 686
+	Message : Player 1 moved to position (38, 28)
+	Message : Turn 687
+	Message : Player 1 moved to position (38, 29)
+	Message : Turn 688
+	Message : Player 1 moved to position (38, 30)
+	Message : Turn 689
+	Message : Player 1 moved to position (38, 31)
+	Message : Turn 690
+	Message : Player 1 moved to position (38, 32)
+	Message : Turn 691
+	Message : Player 1 moved to position (38, 33)
+	Message : Turn 692
+	Message : Player 1 moved to position (38, 34)
+	Message : Turn 693
+	Message : Player 1 moved to position (38, 35)
+	Message : Turn 694
+	Message : Player 1 moved to position (38, 36)
+	Message : Turn 695
+	Message : Player 1 moved to position (38, 37)
+	Message : Turn 696
+	Message : Player 1 moved to position (38, 38)
+	Message : Turn 697
+	Message : Player 1 moved to position (37, 38)
+	Message : Turn 698
+	Message : Player 1 moved to position (36, 38)
+	Message : Turn 699
+	Message : Player 1 moved to position (35, 38)
+	Message : Turn 700
+	Message : Player 1 moved to position (34, 38)
+	Message : Turn 701
+	Message : Player 1 moved to position (33, 38)
+	Message : Turn 702
+	Message : Player 1 moved to position (32, 38)
+	Message : Turn 703
+	Message : Player 1 moved to position (31, 38)
+	Message : Turn 704
+	Message : Player 1 moved to position (30, 38)
+	Message : Turn 705
+	Message : Player 1 moved to position (29, 38)
+	Message : Turn 706
+	Message : Seed generated at (19, 19)
+	Message : Player 1 moved to position (29, 37)
+	Message : Turn 707
+	Message : Seed generated at (27, 3)
+	Message : Player 1 moved to position (29, 36)
+	Message : Turn 708
+	Message : Player 1 moved to position (29, 35)
+	Message : Turn 709
+	Message : Seed generated at (2, 11)
+	Message : Player 1 moved to position (29, 34)
+	Message : Turn 710
+	Message : Player 1 moved to position (29, 33)
+	Message : Turn 711
+	Message : Seed generated at (18, 28)
+	Message : Player 1 moved to position (30, 33)
+	Message : Turn 712
+	Message : Player 1 moved to position (31, 33)
+	Message : Turn 713
+	Message : Player 1 moved to position (32, 33)
+	Message : Turn 714
+	Message : Player 1 moved to position (33, 33)
+	Message : Turn 715
+	Message : Player 1 moved to position (34, 33)
+	Message : Turn 716
+	Message : Player 1 moved to position (35, 33)
+	Message : Turn 717
+	Message : Player 1 moved to position (36, 33)
+	Message : Turn 718
+	Message : Player 1 moved to position (37, 33)
+	Message : Turn 719
+	Message : Player 1 moved to position (37, 34)
+	Message : Turn 720
+	Message : Player 1 moved to position (37, 35)
+	Message : Turn 721
+	Message : Player 1 moved to position (37, 36)
+	Message : Turn 722
+	Message : Player 1 moved to position (37, 37)
+	Message : Turn 723
+	Message : Player 1 moved to position (36, 37)
+	Message : Turn 724
+	Message : Player 1 moved to position (35, 37)
+	Message : Turn 725
+	Message : Seed generated at (27, 17)
+	Message : Player 1 moved to position (35, 36)
+	Message : Turn 726
+	Message : Player 1 moved to position (35, 35)
+	Message : Turn 727
+	Message : Seed generated at (18, 19)
+	Message : Player 1 moved to position (34, 35)
+	Message : Turn 728
+	Message : Player 1 moved to position (33, 35)
+	Message : Turn 729
+	Message : Seed generated at (8, 30)
+	Message : Player 1 moved to position (33, 36)
+	Message : Turn 730
+	Message : Player 1 moved to position (33, 37)
+	Message : Turn 731
+	Message : Player 1 moved to position (32, 37)
+	Message : Turn 732
+	Message : Player 1 moved to position (31, 37)
+	Message : Turn 733
+	Message : Player 1 moved to position (30, 37)
+	Message : Turn 734
+	Message : Player 1 moved to position (30, 36)
+	Message : Turn 735
+	Message : Seed generated at (7, 24)
+	Message : Player 1 moved to position (30, 35)
+	Message : Turn 736
+	Message : Player 1 moved to position (30, 34)
+	Message : Turn 737
+	Message : Player 1 moved to position (31, 34)
+	Message : Turn 738
+	Message : Player 1 moved to position (32, 34)
+	Message : Turn 739
+	Message : Player 1 moved to position (33, 34)
+	Message : Turn 740
+	Message : Player 1 moved to position (34, 34)
+	Message : Turn 741
+	Message : Player 1 moved to position (35, 34)
+	Message : Turn 742
+	Message : Player 1 moved to position (36, 34)
+	Message : Turn 743
+	Message : Player 1 moved to position (36, 35)
+	Message : Turn 744
+	Message : Player 1 moved to position (36, 36)
+	Message : Turn 745
+	Message : Player 1 hit something at (37, 36)
+	Message : Player 1 was removed from the game
+	Message : Player 1 final score : 3145
+	Message : End message sent to player 1
+	Message : Final results : 
+	Message : Player 0 : 0.195241
+	Message : Player 1 : 0.804759
+
+
+	Message : AI Contest Platform Engine version 0.0.0
+	Message : Player Count : 2
+	Message : Player 0 : player3
+	Message : Player 1 : player1
+	Message : Network system initialized
+	Message : (Network) Connection to client 0 accepted
+	Message : (Network) Connection to client 1 accepted
+	Message : All clients have connected successfully
+	Message : Client 0 entered with name player3
+	Message : Client 1 entered with name player1
+	Message : All clients' names successfully checked
+	Message : Seed generated at (18, 1)
+	Message : Seed generated at (4, 34)
+	Message : Seed generated at (32, 38)
+	Message : Seed generated at (8, 29)
+	Message : Seed generated at (33, 25)
+	Message : Seed generated at (15, 21)
+	Message : Seed generated at (22, 38)
+	Message : Seed generated at (12, 20)
+	Message : Seed generated at (22, 5)
+	Message : Seed generated at (2, 6)
+	Message : Seed generated at (19, 15)
+	Message : Seed generated at (13, 24)
+	Message : Seed generated at (31, 10)
+	Message : Seed generated at (28, 7)
+	Message : Seed generated at (13, 14)
+	Message : Seed generated at (1, 9)
+	Message : Seed generated at (31, 20)
+	Message : Seed generated at (4, 24)
+	Message : Seed generated at (35, 27)
+	Message : Seed generated at (30, 29)
+	Message : Seed generated at (13, 22)
+	Message : Seed generated at (28, 34)
+	Message : Seed generated at (22, 17)
+	Message : Seed generated at (32, 5)
+	Message : Seed generated at (21, 11)
+	Message : Seed generated at (26, 1)
+	Message : Seed generated at (4, 1)
+	Message : Seed generated at (24, 12)
+	Message : Seed generated at (10, 29)
+	Message : Seed generated at (18, 38)
+	Message : Seed generated at (21, 34)
+	Message : Seed generated at (16, 27)
+	Message : Seed generated at (14, 12)
+	Message : Seed generated at (16, 21)
+	Message : Seed generated at (19, 6)
+	Message : Seed generated at (5, 24)
+	Message : Seed generated at (2, 4)
+	Message : Seed generated at (2, 11)
+	Message : Seed generated at (24, 38)
+	Message : Seed generated at (21, 12)
+	Message : Seed generated at (17, 2)
+	Message : Seed generated at (12, 18)
+	Message : Seed generated at (13, 37)
+	Message : Seed generated at (9, 31)
+	Message : Seed generated at (36, 7)
+	Message : Seed generated at (4, 22)
+	Message : Seed generated at (35, 35)
+	Message : Seed generated at (10, 26)
+	Message : Seed generated at (25, 3)
+	Message : Seed generated at (8, 21)
+	Message : Seed generated at (9, 28)
+	Message : Seed generated at (6, 26)
+	Message : Seed generated at (31, 23)
+	Message : Seed generated at (36, 17)
+	Message : Seed generated at (22, 34)
+	Message : Seed generated at (28, 38)
+	Message : Seed generated at (18, 26)
+	Message : Seed generated at (15, 4)
+	Message : Seed generated at (18, 28)
+	Message : Seed generated at (26, 38)
+	Message : Seed generated at (11, 22)
+	Message : Seed generated at (34, 37)
+	Message : Seed generated at (9, 20)
+	Message : Seed generated at (1, 32)
+	Message : Seed generated at (2, 9)
+	Message : Seed generated at (22, 23)
+	Message : Seed generated at (34, 30)
+	Message : Seed generated at (7, 9)
+	Message : Seed generated at (8, 7)
+	Message : Seed generated at (21, 13)
+	Message : Seed generated at (22, 18)
+	Message : Seed generated at (7, 17)
+	Message : Seed generated at (5, 37)
+	Message : Seed generated at (20, 1)
+	Message : Seed generated at (27, 23)
+	Message : Seed generated at (38, 15)
+	Message : Seed generated at (6, 11)
+	Message : Seed generated at (13, 30)
+	Message : Seed generated at (9, 30)
+	Message : Seed generated at (24, 26)
+	Message : Seed generated at (16, 23)
+	Message : Seed generated at (11, 12)
+	Message : Seed generated at (30, 33)
+	Message : Seed generated at (36, 38)
+	Message : Seed generated at (1, 18)
+	Message : Seed generated at (28, 23)
+	Message : Seed generated at (13, 35)
+	Message : Seed generated at (17, 18)
+	Message : Seed generated at (11, 15)
+	Message : Seed generated at (37, 11)
+	Message : Seed generated at (30, 21)
+	Message : Seed generated at (37, 20)
+	Message : Seed generated at (12, 7)
+	Message : Seed generated at (11, 13)
+	Message : Seed generated at (33, 27)
+	Message : Seed generated at (16, 5)
+	Message : Seed generated at (15, 13)
+	Message : Seed generated at (20, 32)
+	Message : Seed generated at (9, 9)
+	Message : Seed generated at (32, 21)
+	Message : Game started
+	Message : Turn 1
+	Message : Player 0 ate a seed at (12, 20) and changed its length to 3
+	Message : Seed generated at (21, 10)
+	Message : Player 0 moved to position (12, 20)
+	Message : Player 1 moved to position (27, 20)
+	Message : Turn 2
+	Message : Player 0 moved to position (11, 20)
+	Message : Player 1 moved to position (28, 20)
+	Message : Turn 3
+	Message : Player 0 moved to position (10, 20)
+	Message : Player 1 moved to position (29, 20)
+	Message : Turn 4
+	Message : Player 0 ate a seed at (9, 20) and changed its length to 4
+	Message : Seed generated at (16, 32)
+	Message : Player 0 moved to position (9, 20)
+	Message : Player 1 moved to position (30, 20)
+	Message : Turn 5
+	Message : Player 0 moved to position (8, 20)
+	Message : Player 1 ate a seed at (30, 21) and changed its length to 3
+	Message : Seed generated at (24, 11)
+	Message : Player 1 moved to position (30, 21)
+	Message : Turn 6
+	Message : Player 0 ate a seed at (8, 21) and changed its length to 5
+	Message : Seed generated at (8, 1)
+	Message : Player 0 moved to position (8, 21)
+	Message : Player 1 moved to position (30, 22)
+	Message : Turn 7
+	Message : Player 0 moved to position (8, 22)
+	Message : Player 1 moved to position (30, 23)
+	Message : Turn 8
+	Message : Player 0 moved to position (8, 23)
+	Message : Player 1 ate a seed at (31, 23) and changed its length to 4
+	Message : Seed generated at (37, 15)
+	Message : Player 1 moved to position (31, 23)
+	Message : Turn 9
+	Message : Player 0 moved to position (8, 24)
+	Message : Player 1 moved to position (32, 23)
+	Message : Turn 10
+	Message : Player 0 moved to position (8, 25)
+	Message : Player 1 moved to position (33, 23)
+	Message : Turn 11
+	Message : Player 0 moved to position (8, 26)
+	Message : Player 1 moved to position (34, 23)
+	Message : Turn 12
+	Message : Player 0 moved to position (8, 27)
+	Message : Player 1 moved to position (35, 23)
+	Message : Turn 13
+	Message : Player 0 moved to position (8, 28)
+	Message : Player 1 moved to position (36, 23)
+	Message : Turn 14
+	Message : Player 0 ate a seed at (8, 29) and changed its length to 6
+	Message : Seed generated at (21, 36)
+	Message : Player 0 moved to position (8, 29)
+	Message : Player 1 moved to position (37, 23)
+	Message : Turn 15
+	Message : Player 0 moved to position (8, 30)
+	Message : Player 1 moved to position (38, 23)
+	Message : Turn 16
+	Message : Player 0 ate a seed at (9, 30) and changed its length to 7
+	Message : Seed generated at (35, 10)
+	Message : Player 0 moved to position (9, 30)
+	Message : Player 1 moved to position (38, 22)
+	Message : Turn 17
+	Message : Player 0 ate a seed at (9, 31) and changed its length to 8
+	Message : Seed generated at (4, 23)
+	Message : Player 0 moved to position (9, 31)
+	Message : Player 1 moved to position (38, 21)
+	Message : Turn 18
+	Message : Player 0 moved to position (9, 32)
+	Message : Player 1 moved to position (38, 20)
+	Message : Turn 19
+	Message : Player 0 moved to position (9, 33)
+	Message : Player 1 ate a seed at (37, 20) and changed its length to 5
+	Message : Seed generated at (23, 14)
+	Message : Player 1 moved to position (37, 20)
+	Message : Turn 20
+	Message : Player 0 moved to position (9, 34)
+	Message : Player 1 moved to position (36, 20)
+	Message : Turn 21
+	Message : Player 0 moved to position (9, 35)
+	Message : Player 1 moved to position (35, 20)
+	Message : Turn 22
+	Message : Player 0 moved to position (9, 36)
+	Message : Player 1 moved to position (34, 20)
+	Message : Turn 23
+	Message : Player 0 moved to position (9, 37)
+	Message : Player 1 moved to position (33, 20)
+	Message : Turn 24
+	Message : Player 0 moved to position (9, 38)
+	Message : Player 1 moved to position (32, 20)
+	Message : Turn 25
+	Message : Player 0 moved to position (8, 38)
+	Message : Player 1 ate a seed at (32, 21) and changed its length to 6
+	Message : Seed generated at (12, 4)
+	Message : Player 1 moved to position (32, 21)
+	Message : Turn 26
+	Message : Player 0 moved to position (7, 38)
+	Message : Player 1 moved to position (32, 22)
+	Message : Turn 27
+	Message : Player 0 moved to position (6, 38)
+	Message : Player 1 moved to position (32, 23)
+	Message : Turn 28
+	Message : Player 0 moved to position (5, 38)
+	Message : Player 1 moved to position (32, 24)
+	Message : Turn 29
+	Message : Player 0 ate a seed at (5, 37) and changed its length to 9
+	Message : Seed generated at (17, 5)
+	Message : Player 0 moved to position (5, 37)
+	Message : Player 1 moved to position (32, 25)
+	Message : Turn 30
+	Message : Player 0 moved to position (5, 36)
+	Message : Player 1 ate a seed at (33, 25) and changed its length to 7
+	Message : Seed generated at (33, 36)
+	Message : Player 1 moved to position (33, 25)
+	Message : Turn 31
+	Message : Player 0 moved to position (5, 35)
+	Message : Player 1 moved to position (34, 25)
+	Message : Turn 32
+	Message : Player 0 moved to position (5, 34)
+	Message : Player 1 moved to position (35, 25)
+	Message : Turn 33
+	Message : Player 0 ate a seed at (4, 34) and changed its length to 10
+	Message : Seed generated at (36, 3)
+	Message : Player 0 moved to position (4, 34)
+	Message : Player 1 moved to position (36, 25)
+	Message : Turn 34
+	Message : Player 0 moved to position (3, 34)
+	Message : Player 1 moved to position (37, 25)
+	Message : Turn 35
+	Message : Player 0 moved to position (2, 34)
+	Message : Player 1 moved to position (38, 25)
+	Message : Turn 36
+	Message : Player 0 moved to position (1, 34)
+	Message : Player 1 moved to position (38, 26)
+	Message : Turn 37
+	Message : Player 0 moved to position (1, 33)
+	Message : Player 1 moved to position (38, 27)
+	Message : Turn 38
+	Message : Player 0 ate a seed at (1, 32) and changed its length to 11
+	Message : Seed generated at (23, 7)
+	Message : Player 0 moved to position (1, 32)
+	Message : Player 1 moved to position (38, 28)
+	Message : Turn 39
+	Message : Player 0 moved to position (1, 31)
+	Message : Player 1 moved to position (38, 29)
+	Message : Turn 40
+	Message : Player 0 moved to position (1, 30)
+	Message : Player 1 moved to position (38, 30)
+	Message : Turn 41
+	Message : Player 0 moved to position (1, 29)
+	Message : Player 1 moved to position (38, 31)
+	Message : Turn 42
+	Message : Player 0 moved to position (1, 28)
+	Message : Player 1 moved to position (38, 32)
+	Message : Turn 43
+	Message : Player 0 moved to position (1, 27)
+	Message : Player 1 moved to position (38, 33)
+	Message : Turn 44
+	Message : Player 0 moved to position (1, 26)
+	Message : Player 1 moved to position (38, 34)
+	Message : Turn 45
+	Message : Player 0 moved to position (1, 25)
+	Message : Player 1 moved to position (38, 35)
+	Message : Turn 46
+	Message : Player 0 moved to position (1, 24)
+	Message : Player 1 moved to position (38, 36)
+	Message : Turn 47
+	Message : Player 0 moved to position (1, 23)
+	Message : Player 1 moved to position (38, 37)
+	Message : Turn 48
+	Message : Player 0 moved to position (1, 22)
+	Message : Player 1 moved to position (38, 38)
+	Message : Turn 49
+	Message : Player 0 moved to position (1, 21)
+	Message : Player 1 moved to position (37, 38)
+	Message : Turn 50
+	Message : Player 0 moved to position (1, 20)
+	Message : Player 1 ate a seed at (36, 38) and changed its length to 8
+	Message : Seed generated at (23, 21)
+	Message : Player 1 moved to position (36, 38)
+	Message : Turn 51
+	Message : Player 0 moved to position (1, 19)
+	Message : Player 1 moved to position (35, 38)
+	Message : Turn 52
+	Message : Player 0 ate a seed at (1, 18) and changed its length to 12
+	Message : Seed generated at (16, 17)
+	Message : Player 0 moved to position (1, 18)
+	Message : Player 1 moved to position (34, 38)
+	Message : Turn 53
+	Message : Player 0 moved to position (1, 17)
+	Message : Player 1 ate a seed at (34, 37) and changed its length to 9
+	Message : Seed generated at (30, 18)
+	Message : Player 1 moved to position (34, 37)
+	Message : Turn 54
+	Message : Player 0 moved to position (1, 16)
+	Message : Player 1 moved to position (34, 36)
+	Message : Turn 55
+	Message : Player 0 moved to position (1, 15)
+	Message : Player 1 ate a seed at (33, 36) and changed its length to 10
+	Message : Seed generated at (5, 16)
+	Message : Player 1 moved to position (33, 36)
+	Message : Turn 56
+	Message : Player 0 moved to position (1, 14)
+	Message : Player 1 moved to position (32, 36)
+	Message : Turn 57
+	Message : Player 0 moved to position (1, 13)
+	Message : Player 1 moved to position (31, 36)
+	Message : Turn 58
+	Message : Player 0 moved to position (1, 12)
+	Message : Player 1 moved to position (30, 36)
+	Message : Turn 59
+	Message : Player 0 moved to position (1, 11)
+	Message : Player 1 moved to position (29, 36)
+	Message : Turn 60
+	Message : Player 0 ate a seed at (2, 11) and changed its length to 13
+	Message : Seed generated at (18, 4)
+	Message : Player 0 moved to position (2, 11)
+	Message : Player 1 moved to position (28, 36)
+	Message : Turn 61
+	Message : Player 0 moved to position (3, 11)
+	Message : Player 1 moved to position (27, 36)
+	Message : Turn 62
+	Message : Player 0 moved to position (4, 11)
+	Message : Player 1 moved to position (26, 36)
+	Message : Turn 63
+	Message : Player 0 moved to position (5, 11)
+	Message : Player 1 moved to position (25, 36)
+	Message : Turn 64
+	Message : Player 0 ate a seed at (6, 11) and changed its length to 14
+	Message : Seed generated at (30, 16)
+	Message : Player 0 moved to position (6, 11)
+	Message : Player 1 moved to position (24, 36)
+	Message : Turn 65
+	Message : Player 0 moved to position (7, 11)
+	Message : Player 1 moved to position (23, 36)
+	Message : Turn 66
+	Message : Player 0 moved to position (8, 11)
+	Message : Player 1 moved to position (22, 36)
+	Message : Turn 67
+	Message : Player 0 moved to position (9, 11)
+	Message : Player 1 ate a seed at (21, 36) and changed its length to 11
+	Message : Seed generated at (17, 26)
+	Message : Player 1 moved to position (21, 36)
+	Message : Turn 68
+	Message : Player 0 moved to position (10, 11)
+	Message : Player 1 moved to position (20, 36)
+	Message : Turn 69
+	Message : Player 0 moved to position (11, 11)
+	Message : Player 1 moved to position (19, 36)
+	Message : Turn 70
+	Message : Player 0 ate a seed at (11, 12) and changed its length to 15
+	Message : Seed generated at (11, 25)
+	Message : Player 0 moved to position (11, 12)
+	Message : Player 1 moved to position (18, 36)
+	Message : Turn 71
+	Message : Player 0 ate a seed at (11, 13) and changed its length to 16
+	Message : Seed generated at (12, 37)
+	Message : Player 0 moved to position (11, 13)
+	Message : Player 1 moved to position (17, 36)
+	Message : Turn 72
+	Message : Player 0 moved to position (11, 14)
+	Message : Player 1 moved to position (16, 36)
+	Message : Turn 73
+	Message : Player 0 ate a seed at (11, 15) and changed its length to 17
+	Message : Seed generated at (38, 1)
+	Message : Player 0 moved to position (11, 15)
+	Message : Player 1 moved to position (15, 36)
+	Message : Turn 74
+	Message : Player 0 moved to position (11, 16)
+	Message : Player 1 moved to position (14, 36)
+	Message : Turn 75
+	Message : Player 0 moved to position (11, 17)
+	Message : Player 1 moved to position (13, 36)
+	Message : Turn 76
+	Message : Player 0 moved to position (11, 18)
+	Message : Player 1 ate a seed at (13, 35) and changed its length to 12
+	Message : Seed generated at (3, 16)
+	Message : Player 1 moved to position (13, 35)
+	Message : Turn 77
+	Message : Player 0 ate a seed at (12, 18) and changed its length to 18
+	Message : Seed generated at (5, 35)
+	Message : Player 0 moved to position (12, 18)
+	Message : Player 1 moved to position (13, 34)
+	Message : Turn 78
+	Message : Player 0 moved to position (13, 18)
+	Message : Player 1 moved to position (13, 33)
+	Message : Turn 79
+	Message : Player 0 moved to position (14, 18)
+	Message : Player 1 moved to position (13, 32)
+	Message : Turn 80
+	Message : Player 0 moved to position (15, 18)
+	Message : Player 1 moved to position (13, 31)
+	Message : Turn 81
+	Message : Player 0 moved to position (16, 18)
+	Message : Player 1 ate a seed at (13, 30) and changed its length to 13
+	Message : Seed generated at (30, 2)
+	Message : Player 1 moved to position (13, 30)
+	Message : Turn 82
+	Message : Player 0 ate a seed at (16, 17) and changed its length to 19
+	Message : Seed generated at (15, 30)
+	Message : Player 0 moved to position (16, 17)
+	Message : Player 1 moved to position (13, 29)
+	Message : Turn 83
+	Message : Player 0 moved to position (16, 16)
+	Message : Player 1 moved to position (13, 28)
+	Message : Turn 84
+	Message : Player 0 moved to position (16, 15)
+	Message : Player 1 moved to position (13, 27)
+	Message : Turn 85
+	Message : Player 0 moved to position (16, 14)
+	Message : Player 1 moved to position (13, 26)
+	Message : Turn 86
+	Message : Player 0 moved to position (16, 13)
+	Message : Player 1 moved to position (13, 25)
+	Message : Turn 87
+	Message : Player 0 ate a seed at (15, 13) and changed its length to 20
+	Message : Seed generated at (8, 15)
+	Message : Player 0 moved to position (15, 13)
+	Message : Player 1 ate a seed at (13, 24) and changed its length to 14
+	Message : Seed generated at (28, 2)
+	Message : Player 1 moved to position (13, 24)
+	Message : Turn 88
+	Message : Player 0 moved to position (14, 13)
+	Message : Player 1 moved to position (13, 23)
+	Message : Turn 89
+	Message : Player 0 ate a seed at (14, 12) and changed its length to 21
+	Message : Seed generated at (35, 36)
+	Message : Player 0 moved to position (14, 12)
+	Message : Player 1 ate a seed at (13, 22) and changed its length to 15
+	Message : Seed generated at (17, 4)
+	Message : Player 1 moved to position (13, 22)
+	Message : Turn 90
+	Message : Player 0 moved to position (14, 11)
+	Message : Player 1 moved to position (13, 21)
+	Message : Turn 91
+	Message : Player 0 moved to position (14, 10)
+	Message : Player 1 moved to position (13, 20)
+	Message : Turn 92
+	Message : Player 0 moved to position (14, 9)
+	Message : Player 1 moved to position (13, 19)
+	Message : Turn 93
+	Message : Player 0 moved to position (14, 8)
+	Message : Player 1 moved to position (14, 19)
+	Message : Turn 94
+	Message : Player 0 moved to position (14, 7)
+	Message : Player 1 moved to position (15, 19)
+	Message : Turn 95
+	Message : Player 0 moved to position (14, 6)
+	Message : Player 1 moved to position (16, 19)
+	Message : Turn 96
+	Message : Player 0 moved to position (14, 5)
+	Message : Player 1 moved to position (17, 19)
+	Message : Turn 97
+	Message : Player 0 moved to position (14, 4)
+	Message : Player 1 ate a seed at (17, 18) and changed its length to 16
+	Message : Seed generated at (7, 33)
+	Message : Player 1 moved to position (17, 18)
+	Message : Turn 98
+	Message : Player 0 ate a seed at (15, 4) and changed its length to 22
+	Message : Seed generated at (8, 9)
+	Message : Player 0 moved to position (15, 4)
+	Message : Player 1 moved to position (17, 17)
+	Message : Turn 99
+	Message : Player 0 moved to position (16, 4)
+	Message : Player 1 moved to position (17, 16)
+	Message : Turn 100
+	Message : Player 0 ate a seed at (16, 5) and changed its length to 23
+	Message : Seed generated at (8, 34)
+	Message : Player 0 moved to position (16, 5)
+	Message : Player 1 moved to position (17, 15)
+	Message : Turn 101
+	Message : Player 0 ate a seed at (17, 5) and changed its length to 24
+	Message : Seed generated at (34, 35)
+	Message : Player 0 moved to position (17, 5)
+	Message : Player 1 moved to position (17, 14)
+	Message : Turn 102
+	Message : Player 0 ate a seed at (17, 4) and changed its length to 25
+	Message : Seed generated at (32, 33)
+	Message : Player 0 moved to position (17, 4)
+	Message : Player 1 moved to position (17, 13)
+	Message : Turn 103
+	Message : Player 0 ate a seed at (18, 4) and changed its length to 26
+	Message : Seed generated at (36, 12)
+	Message : Player 0 moved to position (18, 4)
+	Message : Player 1 moved to position (17, 12)
+	Message : Turn 104
+	Message : Player 0 moved to position (19, 4)
+	Message : Player 1 moved to position (17, 11)
+	Message : Turn 105
+	Message : Player 0 moved to position (20, 4)
+	Message : Player 1 moved to position (17, 10)
+	Message : Turn 106
+	Message : Player 0 moved to position (21, 4)
+	Message : Player 1 moved to position (17, 9)
+	Message : Turn 107
+	Message : Player 0 moved to position (22, 4)
+	Message : Player 1 moved to position (17, 8)
+	Message : Turn 108
+	Message : Player 0 ate a seed at (22, 5) and changed its length to 27
+	Message : Seed generated at (26, 2)
+	Message : Player 0 moved to position (22, 5)
+	Message : Player 1 moved to position (17, 7)
+	Message : Turn 109
+	Message : Player 0 moved to position (22, 6)
+	Message : Player 1 moved to position (17, 6)
+	Message : Turn 110
+	Message : Player 0 moved to position (22, 7)
+	Message : Player 1 moved to position (16, 6)
+	Message : Turn 111
+	Message : Player 0 ate a seed at (23, 7) and changed its length to 28
+	Message : Seed generated at (8, 33)
+	Message : Player 0 moved to position (23, 7)
+	Message : Player 1 moved to position (15, 6)
+	Message : Turn 112
+	Message : Player 0 moved to position (24, 7)
+	Message : Player 1 moved to position (15, 7)
+	Message : Turn 113
+	Message : Player 0 moved to position (25, 7)
+	Message : Player 1 moved to position (15, 8)
+	Message : Turn 114
+	Message : Player 0 moved to position (26, 7)
+	Message : Player 1 moved to position (15, 9)
+	Message : Turn 115
+	Message : Player 0 moved to position (27, 7)
+	Message : Player 1 moved to position (15, 10)
+	Message : Turn 116
+	Message : Player 0 ate a seed at (28, 7) and changed its length to 29
+	Message : Seed generated at (20, 22)
+	Message : Player 0 moved to position (28, 7)
+	Message : Player 1 moved to position (15, 11)
+	Message : Turn 117
+	Message : Player 0 moved to position (29, 7)
+	Message : Player 1 moved to position (15, 12)
+	Message : Turn 118
+	Message : Player 0 moved to position (30, 7)
+	Message : Player 1 moved to position (15, 13)
+	Message : Turn 119
+	Message : Player 0 moved to position (31, 7)
+	Message : Player 1 moved to position (15, 14)
+	Message : Turn 120
+	Message : Player 0 moved to position (32, 7)
+	Message : Player 1 moved to position (15, 15)
+	Message : Turn 121
+	Message : Player 0 moved to position (33, 7)
+	Message : Player 1 moved to position (15, 16)
+	Message : Turn 122
+	Message : Player 0 moved to position (34, 7)
+	Message : Player 1 moved to position (15, 17)
+	Message : Turn 123
+	Message : Player 0 moved to position (35, 7)
+	Message : Player 1 moved to position (15, 18)
+	Message : Turn 124
+	Message : Player 0 ate a seed at (36, 7) and changed its length to 30
+	Message : Seed generated at (2, 5)
+	Message : Player 0 moved to position (36, 7)
+	Message : Player 1 moved to position (15, 19)
+	Message : Turn 125
+	Message : Player 0 moved to position (37, 7)
+	Message : Player 1 moved to position (15, 20)
+	Message : Turn 126
+	Message : Player 0 moved to position (38, 7)
+	Message : Player 1 ate a seed at (15, 21) and changed its length to 17
+	Message : Seed generated at (37, 30)
+	Message : Player 1 moved to position (15, 21)
+	Message : Turn 127
+	Message : Player 0 moved to position (38, 6)
+	Message : Player 1 ate a seed at (16, 21) and changed its length to 18
+	Message : Seed generated at (6, 7)
+	Message : Player 1 moved to position (16, 21)
+	Message : Turn 128
+	Message : Player 0 moved to position (38, 5)
+	Message : Player 1 moved to position (17, 21)
+	Message : Turn 129
+	Message : Player 0 moved to position (38, 4)
+	Message : Player 1 moved to position (18, 21)
+	Message : Turn 130
+	Message : Player 0 moved to position (38, 3)
+	Message : Player 1 moved to position (19, 21)
+	Message : Turn 131
+	Message : Player 0 moved to position (38, 2)
+	Message : Player 1 moved to position (20, 21)
+	Message : Turn 132
+	Message : Player 0 ate a seed at (38, 1) and changed its length to 31
+	Message : Seed generated at (27, 18)
+	Message : Player 0 moved to position (38, 1)
+	Message : Player 1 ate a seed at (20, 22) and changed its length to 19
+	Message : Seed generated at (25, 36)
+	Message : Player 1 moved to position (20, 22)
+	Message : Turn 133
+	Message : Player 0 moved to position (37, 1)
+	Message : Player 1 moved to position (20, 23)
+	Message : Turn 134
+	Message : Player 0 moved to position (36, 1)
+	Message : Player 1 moved to position (20, 24)
+	Message : Turn 135
+	Message : Player 0 moved to position (35, 1)
+	Message : Player 1 moved to position (20, 25)
+	Message : Turn 136
+	Message : Player 0 moved to position (34, 1)
+	Message : Player 1 moved to position (20, 26)
+	Message : Turn 137
+	Message : Player 0 moved to position (33, 1)
+	Message : Player 1 moved to position (20, 27)
+	Message : Turn 138
+	Message : Player 0 moved to position (32, 1)
+	Message : Player 1 moved to position (20, 28)
+	Message : Turn 139
+	Message : Player 0 moved to position (31, 1)
+	Message : Player 1 moved to position (20, 29)
+	Message : Turn 140
+	Message : Player 0 moved to position (30, 1)
+	Message : Player 1 moved to position (20, 30)
+	Message : Turn 141
+	Message : Player 0 ate a seed at (30, 2) and changed its length to 32
+	Message : Seed generated at (4, 9)
+	Message : Player 0 moved to position (30, 2)
+	Message : Player 1 moved to position (20, 31)
+	Message : Turn 142
+	Message : Player 0 moved to position (30, 3)
+	Message : Player 1 ate a seed at (20, 32) and changed its length to 20
+	Message : Seed generated at (8, 27)
+	Message : Player 1 moved to position (20, 32)
+	Message : Turn 143
+	Message : Player 0 moved to position (30, 4)
+	Message : Player 1 moved to position (20, 33)
+	Message : Turn 144
+	Message : Player 0 moved to position (30, 5)
+	Message : Player 1 moved to position (20, 34)
+	Message : Turn 145
+	Message : Player 0 moved to position (30, 6)
+	Message : Player 1 ate a seed at (21, 34) and changed its length to 21
+	Message : Seed generated at (18, 16)
+	Message : Player 1 moved to position (21, 34)
+	Message : Turn 146
+	Message : Player 0 moved to position (31, 6)
+	Message : Player 1 ate a seed at (22, 34) and changed its length to 22
+	Message : Seed generated at (22, 13)
+	Message : Player 1 moved to position (22, 34)
+	Message : Turn 147
+	Message : Player 0 moved to position (32, 6)
+	Message : Player 1 moved to position (23, 34)
+	Message : Turn 148
+	Message : Player 0 ate a seed at (32, 5) and changed its length to 33
+	Message : Seed generated at (12, 16)
+	Message : Player 0 moved to position (32, 5)
+	Message : Player 1 moved to position (24, 34)
+	Message : Turn 149
+	Message : Player 0 moved to position (32, 4)
+	Message : Player 1 moved to position (25, 34)
+	Message : Turn 150
+	Message : Player 0 moved to position (32, 3)
+	Message : Player 1 moved to position (26, 34)
+	Message : Turn 151
+	Message : Player 0 moved to position (32, 2)
+	Message : Player 1 moved to position (27, 34)
+	Message : Turn 152
+	Message : Player 0 moved to position (31, 2)
+	Message : Player 1 ate a seed at (28, 34) and changed its length to 23
+	Message : Seed generated at (23, 25)
+	Message : Player 1 moved to position (28, 34)
+	Message : Turn 153
+	Message : Player 0 moved to position (31, 3)
+	Message : Player 1 moved to position (29, 34)
+	Message : Turn 154
+	Message : Player 0 moved to position (31, 4)
+	Message : Player 1 moved to position (30, 34)
+	Message : Turn 155
+	Message : Player 0 moved to position (31, 5)
+	Message : Player 1 ate a seed at (30, 33) and changed its length to 24
+	Message : Seed generated at (27, 26)
+	Message : Player 1 moved to position (30, 33)
+	Message : Turn 156
+	Message : Player 0 hit something at (32, 5)
+	Message : Player 0 was removed from the game
+	Message : Player 0 final score : 1706
+	Message : Player 1 moved to position (30, 32)
+	Message : End message sent to player 0
+	Message : Turn 157
+	Message : Player 1 moved to position (30, 31)
+	Message : Turn 158
+	Message : Player 1 moved to position (30, 30)
+	Message : Turn 159
+	Message : Player 1 ate a seed at (30, 29) and changed its length to 25
+	Message : Seed generated at (27, 13)
+	Message : Player 1 moved to position (30, 29)
+	Message : Turn 160
+	Message : Player 1 moved to position (30, 28)
+	Message : Turn 161
+	Message : Player 1 moved to position (30, 27)
+	Message : Turn 162
+	Message : Player 1 moved to position (30, 26)
+	Message : Turn 163
+	Message : Player 1 moved to position (30, 25)
+	Message : Turn 164
+	Message : Player 1 moved to position (30, 24)
+	Message : Turn 165
+	Message : Player 1 moved to position (30, 23)
+	Message : Turn 166
+	Message : Player 1 moved to position (30, 22)
+	Message : Turn 167
+	Message : Player 1 moved to position (30, 21)
+	Message : Turn 168
+	Message : Player 1 moved to position (30, 20)
+	Message : Turn 169
+	Message : Player 1 ate a seed at (31, 20) and changed its length to 26
+	Message : Seed generated at (37, 8)
+	Message : Player 1 moved to position (31, 20)
+	Message : Turn 170
+	Message : Player 1 moved to position (32, 20)
+	Message : Turn 171
+	Message : Player 1 moved to position (33, 20)
+	Message : Turn 172
+	Message : Player 1 moved to position (34, 20)
+	Message : Turn 173
+	Message : Player 1 moved to position (35, 20)
+	Message : Turn 174
+	Message : Player 1 moved to position (36, 20)
+	Message : Turn 175
+	Message : Player 1 moved to position (37, 20)
+	Message : Turn 176
+	Message : Player 1 moved to position (38, 20)
+	Message : Turn 177
+	Message : Player 1 moved to position (38, 19)
+	Message : Turn 178
+	Message : Player 1 moved to position (38, 18)
+	Message : Turn 179
+	Message : Player 1 moved to position (38, 17)
+	Message : Turn 180
+	Message : Player 1 moved to position (38, 16)
+	Message : Turn 181
+	Message : Player 1 ate a seed at (38, 15) and changed its length to 27
+	Message : Seed generated at (12, 38)
+	Message : Player 1 moved to position (38, 15)
+	Message : Turn 182
+	Message : Player 1 ate a seed at (37, 15) and changed its length to 28
+	Message : Seed generated at (12, 26)
+	Message : Player 1 moved to position (37, 15)
+	Message : Turn 183
+	Message : Player 1 moved to position (36, 15)
+	Message : Turn 184
+	Message : Player 1 moved to position (35, 15)
+	Message : Turn 185
+	Message : Player 1 moved to position (34, 15)
+	Message : Turn 186
+	Message : Player 1 moved to position (33, 15)
+	Message : Turn 187
+	Message : Player 1 moved to position (32, 15)
+	Message : Turn 188
+	Message : Player 1 moved to position (31, 15)
+	Message : Turn 189
+	Message : Player 1 moved to position (30, 15)
+	Message : Turn 190
+	Message : Player 1 ate a seed at (30, 16) and changed its length to 29
+	Message : Seed generated at (29, 34)
+	Message : Player 1 moved to position (30, 16)
+	Message : Turn 191
+	Message : Player 1 moved to position (30, 17)
+	Message : Turn 192
+	Message : Player 1 ate a seed at (30, 18) and changed its length to 30
+	Message : Seed generated at (33, 17)
+	Message : Player 1 moved to position (30, 18)
+	Message : Turn 193
+	Message : Player 1 moved to position (30, 19)
+	Message : Turn 194
+	Message : Player 1 moved to position (31, 19)
+	Message : Turn 195
+	Message : Player 1 moved to position (32, 19)
+	Message : Turn 196
+	Message : Player 1 moved to position (33, 19)
+	Message : Turn 197
+	Message : Player 1 moved to position (34, 19)
+	Message : Turn 198
+	Message : Player 1 moved to position (35, 19)
+	Message : Turn 199
+	Message : Player 1 moved to position (36, 19)
+	Message : Turn 200
+	Message : Player 1 moved to position (37, 19)
+	Message : Turn 201
+	Message : Player 1 moved to position (37, 18)
+	Message : Turn 202
+	Message : Player 1 moved to position (37, 17)
+	Message : Turn 203
+	Message : Player 1 ate a seed at (36, 17) and changed its length to 31
+	Message : Seed generated at (29, 14)
+	Message : Player 1 moved to position (36, 17)
+	Message : Turn 204
+	Message : Player 1 moved to position (35, 17)
+	Message : Turn 205
+	Message : Player 1 moved to position (34, 17)
+	Message : Turn 206
+	Message : Player 1 ate a seed at (33, 17) and changed its length to 32
+	Message : Seed generated at (33, 16)
+	Message : Player 1 moved to position (33, 17)
+	Message : Turn 207
+	Message : Player 1 ate a seed at (33, 16) and changed its length to 33
+	Message : Seed generated at (28, 15)
+	Message : Player 1 moved to position (33, 16)
+	Message : Turn 208
+	Message : Player 1 moved to position (34, 16)
+	Message : Turn 209
+	Message : Player 1 moved to position (35, 16)
+	Message : Turn 210
+	Message : Player 1 moved to position (36, 16)
+	Message : Turn 211
+	Message : Player 1 moved to position (37, 16)
+	Message : Turn 212
+	Message : Player 1 hit something at (38, 16)
+	Message : Player 1 was removed from the game
+	Message : Player 1 final score : 1762
+	Message : End message sent to player 1
+	Message : Final results : 
+	Message : Player 0 : 0.491926
+	Message : Player 1 : 0.508074

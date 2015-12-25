@@ -33,6 +33,7 @@ namespace Core\Security
           return true;
         }
       }
+      // {TODO: filter the name("')}
       // {TODO: filter the size}
       return false;
     }

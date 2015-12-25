@@ -12,7 +12,7 @@ if (!isset($_FILES["file"])) {
 }
 
 $obj -> fileUpload($_FILES["file"]);
-die("Successfully uploaded!");
+die("Uploaded successfully!");
 
 
 ?>

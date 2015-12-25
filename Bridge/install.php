@@ -28,11 +28,13 @@ if(isset($_GET["HOST"]) && isset($_GET["NAME"]) && isset($_GET["USERNAME"]) && i
     $table_games = "CREATE TABLE Games (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     file_name varchar(255),
-    result varchar(255)
+    result varchar(255),
+    initial_test varchar(255),
+    file_type varchar(255)
     )";
     $table_queue = "CREATE TABLE Queue (
     capacity INT UNSIGNED,
-    remaining INT UNSIGNED,
+    joined INT UNSIGNED,
     players varchar(255) UNIQUE,
     agents varchar(255),
     status varchar(50)

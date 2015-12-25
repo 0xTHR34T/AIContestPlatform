@@ -1,0 +1,32 @@
+
+<?php
+
+function shellExecution($agent, $lang)
+{
+      $engineDir = (dirname(__FILE__)) . "/../AICPE/Client";
+      switch ($lang) {
+        case 'text/x-c++src':
+          //echo ."<br/>";
+          return exec("python build.py");
+          break;
+
+        default:
+          return false;
+          break;
+}
+}
+
+//echo "Here exec begins...<br/>";
+$re = shellExecution("a.cpp", "text/x-c++src");
+
+//echo "Here exec ends...<br/>";
+if ($re === null)
+{
+	die("NULL, DUDE! ;)");
+}
+
+echo '<pre><hr>';
+echo $re;
+echo '<hr></pre>';
+
+?>

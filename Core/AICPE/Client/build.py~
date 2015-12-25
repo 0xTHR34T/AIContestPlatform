@@ -1,0 +1,9 @@
+###
+###
+###
+
+import sys,os,subprocess
+
+
+output = subprocess.check_output(["echo", "hey"]);
+print output

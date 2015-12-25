@@ -52,7 +52,7 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
         </div>
         </a>
 
-        <a data-toggle = "tooltip" data-placement = "right" title = "Observe your gamelogs!">
+        <a data-toggle = "tooltip" data-placement = "right" title = "Observe your agents!">
         <div name = "monitor" class = "sub-usrtb">
             <p><span class = "glyphicon glyphicon-eye-open"></span><br>Monitor</p>
         </div>
@@ -203,9 +203,10 @@ if(!isset($_COOKIE["AICP_UserName"]) || !$valid) {
                   <thead>
                     <tr>
                       <th width = "10%">Id</th>
-                      <th width = "45%">Agents</th>
-                      <th width = "25%">Score</th>
-                      <th width = "20%">Action</th>
+                      <th width = "25%">Agents</th>
+                      <th width = "45%">Score</th>
+                      <th width = "25%">Action</th>
+                      <th width = "20%">Initial test</th>
                     </tr>
                   </thead>
                   <tbody>

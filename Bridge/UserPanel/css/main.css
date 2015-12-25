@@ -118,7 +118,6 @@ table > thead th {
   cursor: pointer;
 }
 
-.glyphicon-remove,
 .glyphicon-trash:hover {
   color: red !important;
   cursor: pointer;

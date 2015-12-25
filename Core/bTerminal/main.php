@@ -7,10 +7,13 @@ namespace Core\bTerminal\Main
   */
   require(dirname(__FILE__)."/../../Bridge/includes/config.php");
   require(dirname(__FILE__)."/../security.php");
+  require(dirname(__FILE__)."/../eTerminal/main.php");
 
   use Core\Security\Security as Sec;
+  use Core\eTerminal\Main\Build as build;
+  use Core\eTerminal\Main\Playground as pg;
 
-  global $conn, $sec;
+  global $conn, $sec, $build, $pg;
 
   class Tools
   {
@@ -97,7 +100,7 @@ namespace Core\bTerminal\Main
         return false;
       }
       mysqli_query($GLOBALS["conn"], "INSERT INTO Users VALUES (NULL, '$usr', '$pss', '$email', 0)");
-      mysqli_query($GLOBALS["conn"], "INSERT INTO Games VALUES (NULL, '', '')");
+      mysqli_query($GLOBALS["conn"], "INSERT INTO Games VALUES (NULL, '', '', '', '')");
       mkdir(dirname(__FILE__). "/../UsersData/" .$usr, 0733);
       return true;
     }
@@ -143,16 +146,22 @@ namespace Core\bTerminal\Main
 
     function fileUpload($file)
     {
+      // Note: Check agents number limitaion(12).
+
       $usr = $_COOKIE['AICP_UserName'];
       $target = dirname(__FILE__). "/../UsersData/".$usr."/" .basename($file["name"]);
       move_uploaded_file($file["tmp_name"], $target);
       $res = mysqli_query($GLOBALS["conn"], "SELECT id FROM Users WHERE username='$usr'");
       $row = mysqli_fetch_row($res);
       $id = $row[0];
-      $res = mysqli_query($GLOBALS["conn"], "SELECT file_name FROM Games WHERE id='$id'");
+      $res = mysqli_query($GLOBALS["conn"], "SELECT file_name, result, initial_test, file_type FROM Games WHERE id='$id'");
       $row = mysqli_fetch_row($res);
       $value = $row[0] . $file["name"] . "***";
-      mysqli_query($GLOBALS["conn"], "UPDATE Games SET file_name='$value'");
+      $score = $row[1] . "0" . "***";
+      $test = $row[2] . "0" . "***";
+      $type = $row[3] . $file["type"] . "***";
+
+      mysqli_query($GLOBALS["conn"], "UPDATE Games SET file_name='$value' , result='$score' , initial_test='$test' , file_type='$type' WHERE id='$id'");
       return 0;
     }
 
@@ -169,6 +178,7 @@ namespace Core\bTerminal\Main
       $GLOBALS["conn"] = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
       $GLOBALS["sec"] = new Sec;
       $GLOBALS["tools"] = new Tools;
+      $GLOBALS["pg"] = new pg;
     }
 
     function fetchContests()
@@ -177,9 +187,12 @@ namespace Core\bTerminal\Main
       $tbl = mysqli_query($GLOBALS["conn"], "SELECT * FROM Queue");
       $tbl = mysqli_fetch_all($tbl);
 
-      for ($i = 0; $i < count($tbl); $i++) {
-        if (($tbl[$i][0] == $tbl[$i][1]) || (strpos($tbl[$i][2], $_COOKIE["AICP_UserName"]) !== false)) {
+      for ($i = 0, $exists = false; $i < count($tbl); $i++) {
+        if (($tbl[$i][0] == $tbl[$i][1]) || (strpos($tbl[$i][2], $_COOKIE["AICP_UserName"]) !== false) || $exists) {
           $offset = "-";
+          if (strpos($tbl[$i][2], $_COOKIE["AICP_UserName"]) !== false) {
+            $exists = true;
+          }
         } else {
           $offset = "<button name = '". $tbl[$i][2] ."' onclick = 'contestProcessInit(this)' class = 'btn btn-success' data-toggle = 'modal' data-target = '#joinModal'>join</button>";
         }
@@ -245,6 +258,8 @@ namespace Core\bTerminal\Main
 
     function validateAgent($usr, $agentName)
     {
+      //{TODO: Filter $agentName}
+
       $id = $GLOBALS["tools"] -> findIdByUsername($GLOBALS["conn"], $usr);
       $row = $GLOBALS["tools"] -> selectRowById($GLOBALS["conn"], $id, "Games");
       $agents = explode("***", $row[1]);
@@ -271,6 +286,8 @@ namespace Core\bTerminal\Main
 
     function joinContest($usr, $agent, $contestName)
     {
+      $runState = 0;
+
       if (!$this -> validateContest($contestName) || !$this -> validateAgent($usr, $agent)) {
         return false;
       } else if (!$this -> isRoomToJoin($contestName)) {
@@ -280,17 +297,34 @@ namespace Core\bTerminal\Main
       $res = mysqli_query($GLOBALS["conn"], "SELECT * FROM Queue WHERE players='$contestName'");
       $res = mysqli_fetch_row($res);
       $newRemaining = $res[1]+1;
-      $newPlayers = $res[2] . ",$usr";
+      $newPlayers = $res[2] . ", $usr";
       $newAgents = $res[3] . ",$agent";
 
       if ($res[0] == $newRemaining) {
         $newStatus = "Ready to start the game";
+        $runState = 1;
       } else {
         $newStatus = "Waiting for players";
       }
 
-      $query = "UPDATE Queue SET remaining=$newRemaining, players='$newPlayers', status='$newStatus', agents='$newAgents' WHERE players='$contestName'";
+      $query = "UPDATE Queue SET joined=$newRemaining, players='$newPlayers', status='$newStatus', agents='$newAgents' WHERE players='$contestName'";
       mysqli_query($GLOBALS["conn"], $query) or die("Updating error");
+
+      if ($runState == 1)
+      {
+        $players_array = explode(",", $newPlayers);
+        $agents_array = explode(",", $newAgents);
+        $mainArray = array();
+
+        for ($i = 0; $i < count($players_array); $i++)
+        {
+          $tempArray = array(trim($players_array[$i]), $agents_array[$i]);
+          array_push($mainArray, $tempArray);
+        }
+
+        $GLOBALS["pg"] -> contestProcess($mainArray);
+      }
+
       return true;
     }
 
@@ -304,6 +338,7 @@ namespace Core\bTerminal\Main
       $GLOBALS["sec"] = new Sec;
       $GLOBALS["tools"] = new Tools;
       $GLOBALS["contest"] = new Contest;
+      $GLOBALS["build"] = new build;
     }
 
     function monitorAgents()
@@ -313,8 +348,23 @@ namespace Core\bTerminal\Main
       $row = $GLOBALS["tools"] -> selectRowById($GLOBALS["conn"], $id, "Games");
       $file_names = explode("***", $row[1]);
       $scores = explode("***", $row[2]);
+      $test = explode("***", $row[3]);
 
       for($i = 0; $i < count($file_names) -1; $i++) {
+        /*if ($test[$i] == "1")
+        {
+          $initial_state = "<h4 style='color:green'><b>Success!</b></h4>";
+        } elseif ($test[$i] == "-1") {
+          $initial_state = "<h4 style='color:red'><b>Failure!</b></h4>";
+        } else {
+          $initial_state = "<button class = 'btn btn-info'><span class='glyphicon glyphicon-fire'></span>&nbsp;Start</button>";
+        }*/
+        if ($test[$i] == "0")
+        {
+          $initial_state = "<button class = 'btn btn-info' name = '$file_names[$i]' onclick = 'initialTestProcess(this)'><span class='glyphicon glyphicon-fire'></span>&nbsp;Start</button>";
+        } else {
+          $initial_state = "<h4 style='color:gray'><b>Passed</b></h4>";
+        }
         $buffer .= "
                   <tr>
                     <td>". strval($i+1) ."</td>
@@ -326,10 +376,27 @@ namespace Core\bTerminal\Main
                       <span name = '$file_names[$i]' class = 'glyphicon glyphicon-trash'></span>
                       </h4>
                     </td>
+                    <td>$initial_state</td>
                   </tr>
                     ";
       }
       return $buffer;
+    }
+
+    function initialTest($usr, $agent)
+    {
+      if (!$GLOBALS["contest"] -> validateAgent($usr, $agent))
+      {
+        return false;
+      }
+
+      if ($GLOBALS["build"] -> buildProcess($usr, $agent))
+      {
+        return true;
+      } else {
+        return false;
+      }
+
     }
   }
 
@@ -341,12 +408,7 @@ namespace Core\bTerminal\Main
       $GLOBALS["sec"] = new Sec;
       $GLOBALS["tools"] = new Tools;
     }
-
-    /*function sortPlayers()
-    {
-      return 0;
-    }*/
-
+    
     function showRanking()
     {
       $buffer = "";
